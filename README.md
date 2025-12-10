@@ -91,3 +91,26 @@ ___
 - aENandaDISaMECHZa
 - STRANGE_NATURE_DEFINITORZ.
 - ENDLESS_CONFUSION_SOLUZION.
+
+
+___
+
+### TODO:
+
+- [X] RESEARCH_AGENT - modular Agent()
+- [ ] GATHERIT_AGENT - LlmAgent(), Agent, or GenerativeModel()
+- [ ] PRINCIPZ_AGENT - load ALPHABITZ resources: vocab, syntax. principz.
+- [ ] NAMERATE_AGENT - improve namerology.
+- [ ] ARTIFACT_AGENT - save data as artifacts.
+- [ ] TIMESPAN_AGENT - build intelligent corpus while sleeping.
+- [ ] CURATOR_AGENT  - edit corpus.
+- [ ] MENTOR_AGENT   - teach human what AI learned, while human was sleeping.
+- [ ] PRYZMA_AGENT   - show human what AI learned, using 3D scatter plot.
+- [ ] AUDIO_AGENT    - transcribe audio to text.
+- [ ] VIDEO_AGENT    - transcribe video to text.
+-----------------------
+- [ ] aXTRa_AGENT
+- [ ] aXACTa_AGENT
+- [ ] RESOLVE_AGENT
+- [ ] REVERSE_AGENT
+- [ ] RECON_AGENT
