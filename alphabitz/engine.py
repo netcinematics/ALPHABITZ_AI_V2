@@ -18,8 +18,9 @@ import google.generativeai as genai
 from dotenv import load_dotenv
 
 # Import Principles from the local package
-from .principles import LEXSCI_SYSTEM_PROMPT, get_MISNOMER_PROMPT
+from .prompts import LEXSCI_SYSTEM_PROMPT, get_MISNOMER_PROMPT
 from .RESEARCH_AGENT import RESEARCH_AGENT
+from .GATHERSTATE_AGENT_2 import GATHERSTATE_AGENT
 
 # _________________________________________________________________ RETRY_CONFIG:
 # retry_config=types.HttpRetryOptions(
@@ -93,7 +94,7 @@ class ALPHABITZ_AGENTZ:
         except json.JSONDecodeError:
             return {}
 
-    def _gather_MISNOMER_CONCEPTS(self, existing_vocab: List[str]) -> str:
+    def _gather_MISNOMER_CONCEPTS_bak(self, existing_vocab: List[str]) -> str:
         """
         Phase 1: Gather MISNOMER CONCEPTS.
         Uses the AI and Google Search (implicitly) to find a concept needing exactification.
@@ -196,7 +197,7 @@ class ALPHABITZ_AGENTZ:
 # 
 # ___________________________________________________
 
-    def run_ALPHABITZ_1(self):
+    def run_ALPHABITZ_original_process(self):
         """
         The Main Cycle: Ingest -> Gather -> Exactify -> Save.
         """
@@ -210,7 +211,7 @@ class ALPHABITZ_AGENTZ:
         existing_keys = list(vocab.keys())
         
         # 3. Gather
-        target_concept = self._gather_MISNOMER_CONCEPTS(existing_keys)
+        target_concept = self._gather_MISNOMER_CONCEPTS_bak(existing_keys)
         
         if target_concept == "LEXICAL_UNDEFINED":
             logger.warning("Mission Aborted: No target found.")
@@ -230,7 +231,7 @@ class ALPHABITZ_AGENTZ:
 # 
 # ___________________________________________________
 
-    async def run_ALPHABITZ_2(self):
+    async def run_ALPHABITZ_research_agent(self):
         """
         The Main Cycle: Ingest -> Gather -> Exactify -> Save.
         """
@@ -282,5 +283,46 @@ class ALPHABITZ_AGENTZ:
         ])
         # print(f"RESPONSE: {response1}")
         
+        
         logger.info("=== AGENTZ LOADED ===")
+
+    async def run_ALPHABITZ_gatherstate_agent(self):
+        """
+        Advanced Cycle: Uses GATHERSTATE_AGENT to find Misnomers/Cliches/etc.
+        """
+        logger.info("=== STARTING ALPHABITZ 3 (GATHERSTATE) ===")
+        
+        # Initialize the GATHERSTATE AGENT
+        gather_agent = GATHERSTATE_AGENT()
+        
+        # 1. Gather Misnomers
+        logger.info("Gathering Misnomers...")
+        existing_vocab_keys=self.load_consensus_vocabulary()
+        misnomers = await gather_agent.gather_misnomer_MECH(existing_vocab_keys)
+
+        if misnomers == "LEXICAL_UNDEFINED":
+            logger.warning("Mission Aborted: No target found.")
+            return
+
+        # 4. Exactify
+        result = self._exactify_process(misnomers)
+        # TODO if error do no save to pending.
+        
+        # 5. Save to Pending (Human Loop)
+        self._save_to_pending(misnomers, result)
+
+
+        # misnomers = await gather_agent.gather_misnomer_MECH()
+        # print(f"MISNOMERS FOUND:\n{misnomers}")
+        
+        # 2. Gather Cliches (Example of extending coverage)
+        # logger.info("Gathering Cliches...")
+        # cliches = await gather_agent.gather_cliche_MECH()
+        # print(f"CLICHES FOUND:\n{cliches}")
+
+        # Note: In a full implementation, we would parse these text responses 
+        # and feed them into the exactification process (Phase 2).
+        # For now, we just gather and log as requested for the prototype.
+        
+        logger.info("=== ALPHABITZ 3 COMPLETE ===")
 

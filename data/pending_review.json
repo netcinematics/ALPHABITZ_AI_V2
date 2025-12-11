@@ -1,1 +1,79 @@
-{}
+{
+    "[Event(model_version='gemini-2.5-flash', content=Content(\n  parts=[\n    Part(\n      text='Quantum Entanglement'\n    ),\n  ],\n  role='model'\n), grounding_metadata=GroundingMetadata(), partial=None, turn_complete=None, finish_reason=<FinishReason.STOP: 'STOP'>, error_code=None, error_message=None, interrupted=None, custom_metadata=None, usage_metadata=GenerateContentResponseUsageMetadata(\n  candidates_token_count=3,\n  prompt_token_count=155,\n  prompt_tokens_details=[\n    ModalityTokenCount(\n      modality=<MediaModality.TEXT: 'TEXT'>,\n      token_count=155\n    ),\n  ],\n  thoughts_token_count=373,\n  total_token_count=531\n), live_session_resumption_update=None, input_transcription=None, output_transcription=None, avg_logprobs=None, logprobs_result=None, cache_metadata=None, citation_metadata=None, invocation_id='e-11511db8-c60e-482f-8c2d-5dbe8dccd1c7', author='GATHERSTATE_AGENT', actions=EventActions(skip_summarization=None, state_delta={}, artifact_delta={}, transfer_to_agent=None, escalate=None, requested_auth_configs={}, requested_tool_confirmations={}, compaction=None, end_of_agent=None, agent_state=None, rewind_before_invocation_id=None), long_running_tool_ids=None, branch=None, id='a8ceb51c-e8ae-43ea-a6f2-df8c25425de8', timestamp=1765443186.354366)]": {
+        "target_concept": "Quantum Entanglement",
+        "status": "EXACTIFIED",
+        "ontological_anchor": "The fundamental principles of quantum mechanics governing the behavior of composite quantum systems and non-local correlations.",
+        "misnomer_analysis": {
+            "common_usage": "Often incorrectly perceived as a mysterious, 'spooky' connection or 'teleportation' that allows for instantaneous communication or physical influence between particles over vast distances, implying a form of information transmission or a physical 'tangle'.",
+            "scientific_reality": "A specific type of non-local correlation between the quantum states of two or more particles, such that they form a single, inseparable quantum system. The measurement of a property on one particle instantaneously *reveals* the correlated state of the other(s) \u2013 not by transmitting a signal \u2013 but because their states were already intrinsically linked from the moment of their entanglement or interaction. It does not allow for superluminal information transfer.",
+            "correction": "A pre-established, non-separable, non-causal quantum correlation between constituent particles of a unified quantum system, leading to instantaneous covariance of measurement outcomes without superluminal information exchange."
+        },
+        "derivation_trace": "The common misnomer centers on the idea of 'spooky action at a distance' implying a causal, superluminal link or physical transmission. To 'Exactify' this, the Lexical Bitz must dissect the actual mechanism: (1) how particles become linked (pairing/interaction), (2) the nature of that link (non-separable, coherent state), (3) what happens upon observation (instantaneous correlation), and (4) what *doesn't* happen (no superluminal information transfer). These components directly counter the misconception of 'transmission' or 'physical influence' by focusing on pre-existing correlation and state revelation.",
+        "lexical_bitz": [
+            {
+                "id": "BIT_QE_001",
+                "name": "QUANTUM_PARTICLE_PAIRING_COORDINATION",
+                "function": "Describes the initial process or shared origin where two or more quantum particles (e.g., photons, electrons) interact or are generated in such a way that their individual quantum states become intrinsically linked."
+            },
+            {
+                "id": "BIT_QE_002",
+                "name": "NON_SEPARABLE_SYSTEM_FORMATION",
+                "function": "Establishes the resultant state where the linked particles can no longer be described by independent quantum wave functions, but only as a single, indivisible quantum system with a unified, entangled wave function."
+            },
+            {
+                "id": "BIT_QE_003",
+                "name": "INSTANTANEOUS_MEASUREMENT_COVARIANCE",
+                "function": "Defines the phenomenon where performing a measurement on a specific quantum property (e.g., spin, polarization) of one entangled particle instantly determines the corresponding property of its entangled partner(s), regardless of the spatial separation between them."
+            },
+            {
+                "id": "BIT_QE_004",
+                "name": "STATE_COHERENCE_MAINTENANCE",
+                "function": "Refers to the preservation of the intrinsic, non-local quantum correlation between the particles' states over time and distance, until the coherence is broken by measurement or interaction with the environment (decoherence)."
+            },
+            {
+                "id": "BIT_QE_005",
+                "name": "SUB_LUMINAL_INFORMATION_CONSTRAINT",
+                "function": "Ensures adherence to the principle that while measurement outcomes are correlated instantaneously, this correlation cannot be exploited to transmit any classical information faster than the speed of light, preventing superluminal communication."
+            }
+        ],
+        "confidence_score": 0.98,
+        "timestamp": "2025-12-11T00:53:22.475973",
+        "version": "LEXSCI_v1"
+    },
+    "[Event(model_version='gemini-2.5-flash', content=Content(\n  parts=[\n    Part(\n      text='Quantum Leap'\n    ),\n  ],\n  role='model'\n), grounding_metadata=GroundingMetadata(), partial=None, turn_complete=None, finish_reason=<FinishReason.STOP: 'STOP'>, error_code=None, error_message=None, interrupted=None, custom_metadata=None, usage_metadata=GenerateContentResponseUsageMetadata(\n  candidates_token_count=2,\n  prompt_token_count=155,\n  prompt_tokens_details=[\n    ModalityTokenCount(\n      modality=<MediaModality.TEXT: 'TEXT'>,\n      token_count=155\n    ),\n  ],\n  thoughts_token_count=615,\n  total_token_count=772\n), live_session_resumption_update=None, input_transcription=None, output_transcription=None, avg_logprobs=None, logprobs_result=None, cache_metadata=None, citation_metadata=None, invocation_id='e-194399b6-d960-46f7-a719-8aa98c6ca0cc', author='GATHERSTATE_AGENT', actions=EventActions(skip_summarization=None, state_delta={}, artifact_delta={}, transfer_to_agent=None, escalate=None, requested_auth_configs={}, requested_tool_confirmations={}, compaction=None, end_of_agent=None, agent_state=None, rewind_before_invocation_id=None), long_running_tool_ids=None, branch=None, id='ec0ac15e-e40b-4fc7-9891-4dc3bfd5b473', timestamp=1765443713.266751)]": {
+        "target_concept": "Quantum Leap",
+        "status": "EXACTIFIED",
+        "ontological_anchor": "The physical phenomenon of discrete, instantaneous energy level transitions in quantum systems (e.g., electrons in atoms).",
+        "misnomer_analysis": {
+            "common_usage": "People commonly use 'Quantum Leap' to denote a huge, significant, sudden, and often positive advancement, breakthrough, or major improvement. It implies a large, beneficial, and impactful 'jump' in progress.",
+            "scientific_reality": "In quantum mechanics, a quantum leap (or quantum jump) refers to the instantaneous transition of a quantum system (like an electron) from one discrete energy state to another. These transitions are not necessarily 'large' in magnitude; they can be very small. The key features are their discreteness (non-continuous), instantaneous nature (no measurable duration), and the absence of any intermediate states being occupied.",
+            "correction": "A **Quantized State Transition**, precisely defined as a non-continuous, instantaneous alteration of a quantum system's discrete state (typically energy), occurring without the occupation of intermediate states."
+        },
+        "derivation_trace": "The common usage of 'Quantum Leap' misattributes 'large magnitude' and 'breakthrough' to a phenomenon where the defining characteristics are 'discreteness' and 'instantaneousness,' irrespective of the scale of the energy difference. The misnomer implies a continuous 'leap' across a space, whereas the scientific reality is a direct, abrupt state change without traversing any intermediate configuration. To exactify, we must strip away the connotation of magnitude and emphasize the fundamental mechanisms: the existence of discrete states, the non-continuous nature of the change, and its instantaneous execution. This directly leads to the identification of lexical bitz that describe these atomic components of the mechanism.",
+        "lexical_bitz": [
+            {
+                "id": "QUANTIZED_STATE_DELIMITATION",
+                "name": "Quantized State Delimitation",
+                "function": "Establishes that the system can only exist in specific, discrete, well-defined configurations or energy levels, thereby precluding continuous variability within those defined boundaries."
+            },
+            {
+                "id": "DISCRETE_TRANSIT_MECHANISM",
+                "name": "Discrete Transit Mechanism",
+                "function": "Defines the change as a direct movement from one delimited quantized state to another, explicitly excluding the occupation of or passage through any intermediate states."
+            },
+            {
+                "id": "INSTANTANEOUS_EVENT_EXECUTION",
+                "name": "Instantaneous Event Execution",
+                "function": "Specifies that the transition process itself occurs without any measurable duration, appearing as an abrupt and singular event in time."
+            },
+            {
+                "id": "SYSTEM_PROPERTY_RECONFIGURATION",
+                "name": "System Property Reconfiguration",
+                "function": "Indicates that the transition results in a fundamental and measurable alteration of a specific property of the quantum system, such as its energy level or angular momentum."
+            }
+        ],
+        "confidence_score": 1.0,
+        "timestamp": "2025-12-11T01:02:08.926758",
+        "version": "LEXSCI_v1"
+    }
+}

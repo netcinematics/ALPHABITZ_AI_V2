@@ -98,14 +98,19 @@ ___
 ### TODO:
 
 - [X] RESEARCH_AGENT - modular Agent()
-- [ ] GATHERIT_AGENT - LlmAgent(), Agent, or GenerativeModel()
+- [X] GATHERSTATE_AGENT - LlmAgent(), Agent, or GenerativeModel()
+- [X] GATHERSTATE_AGENT_2 - logic and process from run_ALPHABITZ_1().
 - [ ] PRINCIPZ_AGENT - load ALPHABITZ resources: vocab, syntax. principz.
+- [ ] BITCORPUS_AGENT - build intelligent corpus.
 - [ ] NAMERATE_AGENT - improve namerology.
+----------------------
+- [ ] MENTOR_AGENT   - teach human what AI learned, while human was sleeping.
+- [ ] PRYZMA_AGENT   - show human what AI learned, using 3D scatter plot.
+- [ ] STRATA_AGENT   - show human what AI learned, using 3D scatter plot.
+- [ ] GRAPHZ_AGENT   - show human what AI learned, using 3D scatter plot.
 - [ ] ARTIFACT_AGENT - save data as artifacts.
 - [ ] TIMESPAN_AGENT - build intelligent corpus while sleeping.
 - [ ] CURATOR_AGENT  - edit corpus.
-- [ ] MENTOR_AGENT   - teach human what AI learned, while human was sleeping.
-- [ ] PRYZMA_AGENT   - show human what AI learned, using 3D scatter plot.
 - [ ] AUDIO_AGENT    - transcribe audio to text.
 - [ ] VIDEO_AGENT    - transcribe video to text.
 -----------------------

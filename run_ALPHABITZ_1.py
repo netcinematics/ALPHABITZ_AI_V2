@@ -17,8 +17,9 @@ def main():
     )
     
     # Run the Cycle
-    # mech.run_ALPHABITZ_1()
-    asyncio.run(mech.run_ALPHABITZ_2())
+    # mech.run_ALPHABITZ_original_process()
+    # asyncio.run(mech.run_ALPHABITZ_research_agent())
+    asyncio.run(mech.run_ALPHABITZ_gatherstate_agent())
 
 if __name__ == "__main__":
     main()
