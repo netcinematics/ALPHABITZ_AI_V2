@@ -39,11 +39,12 @@ from .AGENTS.GATHERSTATE_AGENT_2 import GATHERSTATE_AGENT
 # USER_ID = "spaceOTTER" #"default"  # User
 # MODEL_NAME = "gemini-2.5-flash"
 # # MODEL_NAME = "gemini-2.5-flash-lite"
-MAX_GATHER_ATTEMPTS = 3
+MAX_GATHER_ATTEMPTS = 1
 # print("✅ Constants Initialized.")
 
 # MODEL_NAME = "gemini-2.5-flash"
-MODEL_NAME = "gemini-1.5-flash-latest"
+MODEL_NAME = "gemini-2.5-flash-lite"
+# MODEL_NAME = "gemini-1.5-flash-latest"
 
 # Setup Logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - AXI - %(message)s')
@@ -356,10 +357,11 @@ class ALPHABITZ_AGENTZ:
 
         # 4. Exactify
         result = self._exactify_process(misnomers)
-        # TODO if error do no save to pending.
-        
         # 5. Save to Pending (Human Loop)
-        self._save_to_pending(misnomers, result)
+        if "error" in result:
+             logger.warning(f"Skipping save to pending due to error: {result['error']}")
+        else:
+             self._save_to_pending(misnomers, result)
 
 
         # misnomers = await gather_agent.gather_misnomer_MECH()

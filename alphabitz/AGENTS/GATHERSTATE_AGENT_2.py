@@ -18,9 +18,11 @@ retry_config = types.HttpRetryOptions(
     http_status_codes=[429, 500, 503, 504]
 )
 
-# MODEL_NAME = "gemini-2.0-flash-exp"
-MODEL_NAME = "gemini-2.5-flash"
+# MODEL_NAME = "gemini-2.5-flash"
+MODEL_NAME = "gemini-2.5-flash-lite"
+# MODEL_NAME = "gemini-1.5-flash"
 # MODEL_NAME = "gemini-1.5-flash-pro"
+# MODEL_NAME = "gemini-2.0-flash-exp"
 
 class GATHERSTATE_AGENT:
     """
@@ -39,8 +41,10 @@ class GATHERSTATE_AGENT:
             Your mission is to search for and identify linguistic concepts such as 
             MISNOMER, CLICHE, POLYSEMY, and HOMONYMY.
             Prioritize inputs that are confusing, widely misused, or scientifically inaccurate.
-            Return the highest ranked topics first.
-            IMPORTANT: Do NOT return any concepts listed in the exclusion list provided in the prompt.
+            
+            CRITICAL RULE: You MUST check the provided Exclusion List. 
+            NEVER return a concept that is already in the Exclusion List.
+            Return the highest ranked unique topics first.
             """,
             tools=[google_search],
         )
@@ -64,9 +68,11 @@ class GATHERSTATE_AGENT:
         Find a concept that is misunderstood by the general public but has a specific 
         technical reality. Focus on AI, Neuroscience, Psychology, Sociology, or Quantum Mechanics.
         
-        EXCLUSION LIST (DO NOT RETURN THESE): {existing_vocab_keys}
+        FORBIDDEN CONCEPTS (ALREADY FOUND): 
+        {existing_vocab_keys}
         
-        Return ONLY the concept name of a high-impact misnomer that is NOT in the exclusion list.
+        INSTRUCTION: Ignore all concepts in the Forbidden List. Find a NEW, UNIQUE concept.
+        Return ONLY the concept name.
         """
         # Search for significant MISNOMERS in current technology, science, or culture.
         # Find concepts that are widely used but technically incorrect.
