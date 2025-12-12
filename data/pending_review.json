@@ -1,79 +1,120 @@
 {
-    "[Event(model_version='gemini-2.5-flash', content=Content(\n  parts=[\n    Part(\n      text='Quantum Entanglement'\n    ),\n  ],\n  role='model'\n), grounding_metadata=GroundingMetadata(), partial=None, turn_complete=None, finish_reason=<FinishReason.STOP: 'STOP'>, error_code=None, error_message=None, interrupted=None, custom_metadata=None, usage_metadata=GenerateContentResponseUsageMetadata(\n  candidates_token_count=3,\n  prompt_token_count=155,\n  prompt_tokens_details=[\n    ModalityTokenCount(\n      modality=<MediaModality.TEXT: 'TEXT'>,\n      token_count=155\n    ),\n  ],\n  thoughts_token_count=373,\n  total_token_count=531\n), live_session_resumption_update=None, input_transcription=None, output_transcription=None, avg_logprobs=None, logprobs_result=None, cache_metadata=None, citation_metadata=None, invocation_id='e-11511db8-c60e-482f-8c2d-5dbe8dccd1c7', author='GATHERSTATE_AGENT', actions=EventActions(skip_summarization=None, state_delta={}, artifact_delta={}, transfer_to_agent=None, escalate=None, requested_auth_configs={}, requested_tool_confirmations={}, compaction=None, end_of_agent=None, agent_state=None, rewind_before_invocation_id=None), long_running_tool_ids=None, branch=None, id='a8ceb51c-e8ae-43ea-a6f2-df8c25425de8', timestamp=1765443186.354366)]": {
+    "Quantum Entanglement": {
         "target_concept": "Quantum Entanglement",
         "status": "EXACTIFIED",
-        "ontological_anchor": "The fundamental principles of quantum mechanics governing the behavior of composite quantum systems and non-local correlations.",
+        "ontological_anchor": "A fundamental property of quantum systems where the quantum states of two or more particles become interdependent and cannot be described independently, even when separated by vast distances, arising from their shared origin or interaction within a single quantum event. Measurement on one particle instantaneously actualizes the state of the entire system, leading to deterministically correlated outcomes for all constituent particles without superluminal information transfer.",
         "misnomer_analysis": {
-            "common_usage": "Often incorrectly perceived as a mysterious, 'spooky' connection or 'teleportation' that allows for instantaneous communication or physical influence between particles over vast distances, implying a form of information transmission or a physical 'tangle'.",
-            "scientific_reality": "A specific type of non-local correlation between the quantum states of two or more particles, such that they form a single, inseparable quantum system. The measurement of a property on one particle instantaneously *reveals* the correlated state of the other(s) \u2013 not by transmitting a signal \u2013 but because their states were already intrinsically linked from the moment of their entanglement or interaction. It does not allow for superluminal information transfer.",
-            "correction": "A pre-established, non-separable, non-causal quantum correlation between constituent particles of a unified quantum system, leading to instantaneous covariance of measurement outcomes without superluminal information exchange."
+            "common_usage": "Often understood as a 'tangle' or a 'link' that implies a direct physical connection or a mystical instantaneous influence ('spooky action at a distance') that suggests faster-than-light communication or information transfer between particles. The term 'entanglement' itself can evoke a sense of individual entities becoming physically intertwined or connected after the fact.",
+            "scientific_reality": "Entanglement describes a *single, non-separable quantum state* that pertains to multiple particles from their moment of shared genesis or interaction. The particles do not individually possess definite properties until measured; rather, the *ensemble* is described by one wave function. A measurement on one particle instantaneously causes the entire shared wave function to collapse into a definite state, thereby correlating the outcomes of measurements on the other particles. This correlation is a manifestation of the pre-existing shared state, not a signal being sent or information being transferred between separate entities.",
+            "correction": "A **Non-Local Quantum State Coherence** where multiple constituent quantum entities, originating from a common system genesis, exist as a single, indivisible probabilistic state whose constituent outcomes are instantaneously and deterministically correlated upon observation, without superluminal information transfer."
         },
-        "derivation_trace": "The common misnomer centers on the idea of 'spooky action at a distance' implying a causal, superluminal link or physical transmission. To 'Exactify' this, the Lexical Bitz must dissect the actual mechanism: (1) how particles become linked (pairing/interaction), (2) the nature of that link (non-separable, coherent state), (3) what happens upon observation (instantaneous correlation), and (4) what *doesn't* happen (no superluminal information transfer). These components directly counter the misconception of 'transmission' or 'physical influence' by focusing on pre-existing correlation and state revelation.",
+        "derivation_trace": "The common usage of 'entanglement' misrepresents the mechanism by implying individual particles that get 'tangled' or 'linked' and then communicate. The scientific reality reveals that it's a *shared, indivisible quantum state* from which the particles emerge. This non-separability (non-decomposability) is key. The 'instantaneous influence' isn't communication, but rather the manifestation of a pre-existing correlation within this single state when an observation 'collapses' it. Thus, the lexical bits must reflect this: the *shared identity* (origin from one system), the *indivisibility* of their collective state, the *instantaneous nature* of state determination upon observation, and the *predictable correlation* of outcomes resulting from this shared state. The misnomer's focus on 'action' or 'link' is replaced by 'state coherence' and 'correlation enforcement' to describe the actual mechanism.",
         "lexical_bitz": [
             {
-                "id": "BIT_QE_001",
-                "name": "QUANTUM_PARTICLE_PAIRING_COORDINATION",
-                "function": "Describes the initial process or shared origin where two or more quantum particles (e.g., photons, electrons) interact or are generated in such a way that their individual quantum states become intrinsically linked."
+                "id": "LBIT_QSE_001",
+                "name": "Shared System Genesis",
+                "function": "Describes the origination of multiple quantum entities from a single process or interaction that establishes their collective, interdependent quantum state, rather than a collection of independent states."
             },
             {
-                "id": "BIT_QE_002",
-                "name": "NON_SEPARABLE_SYSTEM_FORMATION",
-                "function": "Establishes the resultant state where the linked particles can no longer be described by independent quantum wave functions, but only as a single, indivisible quantum system with a unified, entangled wave function."
+                "id": "LBIT_QSE_002",
+                "name": "State Non-Decomposability",
+                "function": "Ensures that the combined quantum state of the entities cannot be mathematically factored into separate, independent states for each entity, defining their inherent, irreducible interdependence."
             },
             {
-                "id": "BIT_QE_003",
-                "name": "INSTANTANEOUS_MEASUREMENT_COVARIANCE",
-                "function": "Defines the phenomenon where performing a measurement on a specific quantum property (e.g., spin, polarization) of one entangled particle instantly determines the corresponding property of its entangled partner(s), regardless of the spatial separation between them."
+                "id": "LBIT_QSE_003",
+                "name": "Observational State Actualization",
+                "function": "Represents the process by which a measurement performed on one of the entangled entities instantaneously causes the entire shared quantum state (and thus all constituent entities) to transition from a superposition into a definite, observed state."
             },
             {
-                "id": "BIT_QE_004",
-                "name": "STATE_COHERENCE_MAINTENANCE",
-                "function": "Refers to the preservation of the intrinsic, non-local quantum correlation between the particles' states over time and distance, until the coherence is broken by measurement or interaction with the environment (decoherence)."
-            },
-            {
-                "id": "BIT_QE_005",
-                "name": "SUB_LUMINAL_INFORMATION_CONSTRAINT",
-                "function": "Ensures adherence to the principle that while measurement outcomes are correlated instantaneously, this correlation cannot be exploited to transmit any classical information faster than the speed of light, preventing superluminal communication."
+                "id": "LBIT_QSE_004",
+                "name": "Deterministic Correlation Manifestation",
+                "function": "Specifies that the outcome of a measurement on one entangled entity dictates the precise, correlated outcome for measurements on other entangled entities, consistent with the properties of their shared, non-decomposable state, irrespective of spatial separation."
             }
         ],
-        "confidence_score": 0.98,
-        "timestamp": "2025-12-11T00:53:22.475973",
+        "confidence_score": 0.97,
+        "timestamp": "2025-12-11T21:59:55.333940",
         "version": "LEXSCI_v1"
     },
-    "[Event(model_version='gemini-2.5-flash', content=Content(\n  parts=[\n    Part(\n      text='Quantum Leap'\n    ),\n  ],\n  role='model'\n), grounding_metadata=GroundingMetadata(), partial=None, turn_complete=None, finish_reason=<FinishReason.STOP: 'STOP'>, error_code=None, error_message=None, interrupted=None, custom_metadata=None, usage_metadata=GenerateContentResponseUsageMetadata(\n  candidates_token_count=2,\n  prompt_token_count=155,\n  prompt_tokens_details=[\n    ModalityTokenCount(\n      modality=<MediaModality.TEXT: 'TEXT'>,\n      token_count=155\n    ),\n  ],\n  thoughts_token_count=615,\n  total_token_count=772\n), live_session_resumption_update=None, input_transcription=None, output_transcription=None, avg_logprobs=None, logprobs_result=None, cache_metadata=None, citation_metadata=None, invocation_id='e-194399b6-d960-46f7-a719-8aa98c6ca0cc', author='GATHERSTATE_AGENT', actions=EventActions(skip_summarization=None, state_delta={}, artifact_delta={}, transfer_to_agent=None, escalate=None, requested_auth_configs={}, requested_tool_confirmations={}, compaction=None, end_of_agent=None, agent_state=None, rewind_before_invocation_id=None), long_running_tool_ids=None, branch=None, id='ec0ac15e-e40b-4fc7-9891-4dc3bfd5b473', timestamp=1765443713.266751)]": {
-        "target_concept": "Quantum Leap",
+    "Schizophrenia": {
+        "target_concept": "Schizophrenia",
         "status": "EXACTIFIED",
-        "ontological_anchor": "The physical phenomenon of discrete, instantaneous energy level transitions in quantum systems (e.g., electrons in atoms).",
+        "ontological_anchor": "A chronic, severe neurodevelopmental syndrome characterized by fundamental and characteristic distortions of thinking and perception, and by inappropriate or blunted affect, leading to significant functional impairment. It is understood as a disorder of brain function involving dysregulation across multiple neural circuits and neurotransmitter systems, rather than a 'split mind' or 'multiple personalities'.",
         "misnomer_analysis": {
-            "common_usage": "People commonly use 'Quantum Leap' to denote a huge, significant, sudden, and often positive advancement, breakthrough, or major improvement. It implies a large, beneficial, and impactful 'jump' in progress.",
-            "scientific_reality": "In quantum mechanics, a quantum leap (or quantum jump) refers to the instantaneous transition of a quantum system (like an electron) from one discrete energy state to another. These transitions are not necessarily 'large' in magnitude; they can be very small. The key features are their discreteness (non-continuous), instantaneous nature (no measurable duration), and the absence of any intermediate states being occupied.",
-            "correction": "A **Quantized State Transition**, precisely defined as a non-continuous, instantaneous alteration of a quantum system's discrete state (typically energy), occurring without the occupation of intermediate states."
+            "common_usage": "Often incorrectly used to describe 'split personality' or 'multiple personalities,' implying a person has distinct, separate identities. It is also frequently associated with inherent violence or a direct, simple genetic inheritance.",
+            "scientific_reality": "Schizophrenia, literally 'split mind' from Greek roots, refers not to a split personality, but to a *fragmentation* or *disintegration* of mental functions (e.g., thought, emotion, perception, and behavior). It is a complex psychiatric syndrome, highly heterogeneous in presentation, with multifactorial etiology (genetic predispositions, environmental factors, neurobiological anomalies). It primarily involves a disruption in the seamless integration of these cognitive and affective processes, manifesting as positive symptoms (e.g., hallucinations, delusions, disorganized thought), negative symptoms (e.g., apathy, anhedonia, alogia), and cognitive deficits.",
+            "correction": "Schizophrenia is a syndrome of neurodevelopmental origin characterized by a chronic and severe dysregulation and fragmentation of integrated cognitive, perceptual, and affective processing, leading to impaired reality testing and significant functional decline. It is distinct from Dissociative Identity Disorder ('multiple personalities')."
         },
-        "derivation_trace": "The common usage of 'Quantum Leap' misattributes 'large magnitude' and 'breakthrough' to a phenomenon where the defining characteristics are 'discreteness' and 'instantaneousness,' irrespective of the scale of the energy difference. The misnomer implies a continuous 'leap' across a space, whereas the scientific reality is a direct, abrupt state change without traversing any intermediate configuration. To exactify, we must strip away the connotation of magnitude and emphasize the fundamental mechanisms: the existence of discrete states, the non-continuous nature of the change, and its instantaneous execution. This directly leads to the identification of lexical bitz that describe these atomic components of the mechanism.",
+        "derivation_trace": "The common misinterpretation of 'Schizophrenia' as 'split personality' (a term semantically closer to Dissociative Identity Disorder) necessitates an 'Exactification' that clarifies its true nature as a *disintegration* of core mental functions. To achieve this, the Lexical Bitz must dismantle the notion of separate identities and instead build up the concept from the observable and mechanistic breakdowns in: 1) how sensory information is processed and interpreted (Perceptual Dysregulation), 2) how thoughts are formed and structured (Cognitive Schema Disruption), 3) how emotions are experienced and expressed (Affective Response Dysfunction), and 4) the higher-order mental control mechanisms (Executive Function Impairment). Furthermore, it must anchor the condition in its underlying biological and developmental trajectory (Neurodevelopmental Trajectory and Multifactorial Etiology) to correct the misconception of a purely psychological or simply inherited disorder.",
         "lexical_bitz": [
             {
-                "id": "QUANTIZED_STATE_DELIMITATION",
-                "name": "Quantized State Delimitation",
-                "function": "Establishes that the system can only exist in specific, discrete, well-defined configurations or energy levels, thereby precluding continuous variability within those defined boundaries."
+                "id": "BIT_001_PERCEPTUAL_DYSREGULATION",
+                "name": "Perceptual Dysregulation",
+                "function": "Describes the mechanism of altered sensory processing and interpretation, leading to hallucinations (perceiving stimuli not present) or misinterpretations of real stimuli. This directly addresses the breakdown in reality testing at the sensory level."
             },
             {
-                "id": "DISCRETE_TRANSIT_MECHANISM",
-                "name": "Discrete Transit Mechanism",
-                "function": "Defines the change as a direct movement from one delimited quantized state to another, explicitly excluding the occupation of or passage through any intermediate states."
+                "id": "BIT_002_COGNITIVE_SCHEMA_DISRUPTION",
+                "name": "Cognitive Schema Disruption",
+                "function": "Defines the mechanism of fragmented or disorganized thought processes, impaired logical reasoning, and the formation of fixed, false beliefs (delusions). This highlights the breakdown in coherent mental frameworks and reality construction."
             },
             {
-                "id": "INSTANTANEOUS_EVENT_EXECUTION",
-                "name": "Instantaneous Event Execution",
-                "function": "Specifies that the transition process itself occurs without any measurable duration, appearing as an abrupt and singular event in time."
+                "id": "BIT_003_AFFECTIVE_RESPONSE_DYSFUNCTION",
+                "name": "Affective Response Dysfunction",
+                "function": "Characterizes the mechanism of blunted emotional expression, incongruent emotional responses, or an inability to experience pleasure (anhedonia). This captures the disintegration of emotional integration with thought and behavior."
             },
             {
-                "id": "SYSTEM_PROPERTY_RECONFIGURATION",
-                "name": "System Property Reconfiguration",
-                "function": "Indicates that the transition results in a fundamental and measurable alteration of a specific property of the quantum system, such as its energy level or angular momentum."
+                "id": "BIT_004_EXECUTIVE_FUNCTION_IMPAIRMENT",
+                "name": "Executive Function Impairment",
+                "function": "Identifies the mechanism of deficits in higher-order cognitive control processes such as planning, problem-solving, attention, working memory, and decision-making. This reflects the impact on goal-directed behavior and adaptive functioning."
+            },
+            {
+                "id": "BIT_005_NEURODEVELOPMENTAL_TRAJECTORY",
+                "name": "Neurodevelopmental Trajectory",
+                "function": "Anchors the condition as a chronic, often progressive, disorder with origins in altered brain development and maturation, typically manifesting in late adolescence or early adulthood. This emphasizes its biological basis and enduring nature."
+            },
+            {
+                "id": "BIT_006_MULTIFACTORIAL_ETIOLOGY",
+                "name": "Multifactorial Etiology",
+                "function": "States that the condition arises from a complex interplay of genetic predispositions, environmental stressors (e.g., early life trauma, cannabis use), and specific neurobiological anomalies, rather than a single cause. This addresses the complexity of its origins."
+            }
+        ],
+        "confidence_score": 0.95,
+        "timestamp": "2025-12-11T23:02:25.020957",
+        "version": "LEXSCI_v1"
+    },
+    "Quantum Leap.": {
+        "target_concept": "Quantum Leap",
+        "status": "EXACTIFIED",
+        "ontological_anchor": "The physical phenomenon of a quantum system transitioning instantaneously and non-continuously between discrete, quantized states.",
+        "misnomer_analysis": {
+            "common_usage": "A very large, significant, or sudden advancement, improvement, or change. Often implies a dramatic increase in magnitude or capability.",
+            "scientific_reality": "In quantum mechanics, a 'quantum jump' or 'quantum transition' refers to the instantaneous, discontinuous, and non-smooth movement of a particle (e.g., an electron) from one discrete energy level or quantum state to another. The defining characteristic is the absence of intermediate states during the transition and its lack of duration, not necessarily the magnitude of the change itself, which can be quite small.",
+            "correction": "A discrete, instantaneous, and non-continuous change in the configuration or state of a quantum system from one quantized state to another, bypassing all intermediate states. The magnitude of this change is not intrinsically large, but its manner of occurrence is fundamental to quantum behavior."
+        },
+        "derivation_trace": "The common usage of 'Quantum Leap' erroneously conflates 'quantum' (meaning discrete, fundamental, indivisible unit) with 'large' or 'significant,' likely due to the evocative 'leap' component. The scientific reality emphasizes the *mechanism* of change: it's not smooth or gradual, but an abrupt jump between distinct allowed states. To exactify, we must strip away the misleading magnitude connotation and define the concept purely by its operational physics. This necessitates bits describing the nature of the states (discrete), the nature of the transition (instantaneous, non-continuous), and the entity undergoing the change.",
+        "lexical_bitz": [
+            {
+                "id": "BIT_QSE",
+                "name": "Quantized System Entity",
+                "function": "Represents the fundamental particle or system constrained to exist only in specific, discrete energy levels or quantum states."
+            },
+            {
+                "id": "BIT_DSS",
+                "name": "Discrete State Space",
+                "function": "Defines the finite or countably infinite set of specific, allowed, non-continuous configurations or energy levels that the Quantized System Entity can occupy."
+            },
+            {
+                "id": "BIT_NCT",
+                "name": "Non-Continuous Transition",
+                "function": "Describes the mechanism by which the Quantized System Entity moves from one state within the Discrete State Space to another, explicitly bypassing any intermediate states or values, making the change abrupt rather than gradual."
+            },
+            {
+                "id": "BIT_IT",
+                "name": "Instantaneous Transition",
+                "function": "Characterizes the temporal aspect of the Non-Continuous Transition, indicating that the change occurs without measurable duration or passage of time, from the perspective of the transition itself."
             }
         ],
         "confidence_score": 1.0,
-        "timestamp": "2025-12-11T01:02:08.926758",
+        "timestamp": "2025-12-11T23:07:38.946567",
         "version": "LEXSCI_v1"
     }
 }

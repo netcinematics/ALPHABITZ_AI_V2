@@ -4,6 +4,7 @@ from google.adk.models.google_llm import Gemini
 from google.adk.runners import InMemoryRunner
 from google.adk.tools import google_search
 from google.genai import types
+from google.api_core.exceptions import ResourceExhausted
 import logging
 from typing import Dict, List, Optional
 
@@ -11,13 +12,14 @@ from typing import Dict, List, Optional
 logger = logging.getLogger(__name__)
 
 retry_config = types.HttpRetryOptions(
-    attempts=5,
+    attempts=3,
     exp_base=7,
-    initial_delay=1,
+    initial_delay=3,
     http_status_codes=[429, 500, 503, 504]
 )
 
-MODEL_NAME = "gemini-2.5-flash"
+MODEL_NAME = "gemini-2.0-flash-exp"
+# MODEL_NAME = "gemini-2.5-flash"
 
 class GATHERSTATE_AGENT:
     """
@@ -37,11 +39,20 @@ class GATHERSTATE_AGENT:
             MISNOMER, CLICHE, POLYSEMY, and HOMONYMY.
             Prioritize inputs that are confusing, widely misused, or scientifically inaccurate.
             Return the highest ranked topics first.
+            IMPORTANT: Do NOT return any concepts listed in the exclusion list provided in the prompt.
             """,
             tools=[google_search],
         )
         self.runner = InMemoryRunner(agent=self.agent)
         logger.info("✅ GATHERSTATE_AGENT initialized.")
+
+    def _extract_text_from_events(self, events: List) -> str:
+        """Helper to extract text from the last model event."""
+        for event in reversed(events):
+            if hasattr(event, 'content') and hasattr(event.content, 'role') and event.content.role == 'model':
+                if hasattr(event.content, 'parts') and len(event.content.parts) > 0:
+                     return event.content.parts[0].text.strip()
+        return str(events)
 
     async def gather_misnomer_MECH(self, context: str = "", existing_vocab_keys: List[str] = []) -> str:
         """
@@ -51,16 +62,25 @@ class GATHERSTATE_AGENT:
         prompt = f"""
         Find a concept that is misunderstood by the general public but has a specific 
         technical reality. Focus on AI, Neuroscience, Psychology, Sociology, or Quantum Mechanics.
-        Exclude: {existing_vocab_keys}
-        Return ONLY the concept name.
+        
+        EXCLUSION LIST (DO NOT RETURN THESE): {existing_vocab_keys}
+        
+        Return ONLY the concept name of a high-impact misnomer that is NOT in the exclusion list.
         """
         # Search for significant MISNOMERS in current technology, science, or culture.
         # Find concepts that are widely used but technically incorrect.
         # Context: {context}
         # Return a list of top 3 misnomers, ranked by impact.
         # Format: 1. [Concept] - [Brief Reason]
-        response_events = await self.runner.run_debug(prompt)
-        return str(response_events)
+        try:
+            response_events = await self.runner.run_debug(prompt)
+            # return str(response_events)
+            response_tgt = self._extract_text_from_events(response_events)
+            logger.info(f"Gathered misnomers: {response_tgt}")
+            return str(response_tgt)
+        except ResourceExhausted:
+            logger.error("API Quota Reached (429). Halting GATHERSTATE_AGENT.")
+            return "API_LIMIT_REACHED"
 
     async def gather_cliche_MECH(self, context: str = "") -> str:
         """
@@ -73,8 +93,14 @@ class GATHERSTATE_AGENT:
         Return a list of top 3 cliches that dilute meaning.
         Format: 1. [Cliche] - [Brief Reason]
         """
-        response_events = await self.runner.run_debug(prompt)
-        return str(response_events)
+        try:
+            response_events = await self.runner.run_debug(prompt)
+            response_tgt = self._extract_text_from_events(response_events)
+            logger.info(f"Gathered cliches: {response_tgt}")
+            return str(response_tgt)
+        except ResourceExhausted:
+            logger.error("API Quota Reached (429). Halting GATHERSTATE_AGENT.")
+            return "API_LIMIT_REACHED"
 
     async def gather_polysemy_MECH(self, context: str = "") -> str:
         """
@@ -87,8 +113,15 @@ class GATHERSTATE_AGENT:
         Return the top 3 examples.
         Format: 1. [Word] - [Meaning A] vs [Meaning B]
         """
-        response_events = await self.runner.run_debug(prompt)
-        return str(response_events)
+        try:
+            response_events = await self.runner.run_debug(prompt)
+            # return self._extract_text_from_events(response_events)
+            response_tgt = self._extract_text_from_events(response_events)
+            logger.info(f"Gathered polysemy: {response_tgt}")
+            return str(response_tgt)
+        except ResourceExhausted:
+            logger.error("API Quota Reached (429). Halting GATHERSTATE_AGENT.")
+            return "API_LIMIT_REACHED"
 
     async def gather_homonymy_MECH(self, context: str = "") -> str:
         """
@@ -100,8 +133,14 @@ class GATHERSTATE_AGENT:
         Context: {context}
         Return the top 3 examples.
         """
-        response_events = await self.runner.run_debug(prompt)
-        return str(response_events)
+        try:
+            response_events = await self.runner.run_debug(prompt)
+            response_tgt = self._extract_text_from_events(response_events)
+            logger.info(f"Gathered homonymy: {response_tgt}")
+            return str(response_tgt)
+        except ResourceExhausted:
+            logger.error("API Quota Reached (429). Halting GATHERSTATE_AGENT.")
+            return "API_LIMIT_REACHED"
 
 # Define instance for direct usage if needed, but class is modular.
 # gather_agent_instance = GATHERSTATE_AGENT()

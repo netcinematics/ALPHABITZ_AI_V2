@@ -2,13 +2,13 @@
 import pytest
 import asyncio
 from unittest.mock import MagicMock, patch, AsyncMock
-from alphabitz.GATHERSTATE_AGENT import GATHERSTATE_AGENT
+from alphabitz.AGENTS.GATHERSTATE_AGENT import GATHERSTATE_AGENT
 
 @pytest.fixture
 def gather_agent():
     # Patch Agent to prevent actual instantiation
-    with patch("alphabitz.GATHERSTATE_AGENT.Agent") as MockAgent, \
-         patch("alphabitz.GATHERSTATE_AGENT.InMemoryRunner") as MockRunner:
+    with patch("alphabitz.AGENTS.GATHERSTATE_AGENT.Agent") as MockAgent, \
+         patch("alphabitz.AGENTS.GATHERSTATE_AGENT.InMemoryRunner") as MockRunner:
         
         # Setup Mock Agent (mostly ignored now since we use runner)
         mock_agent_instance = MockAgent.return_value

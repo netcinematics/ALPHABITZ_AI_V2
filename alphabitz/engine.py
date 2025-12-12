@@ -2,6 +2,7 @@ import json
 import os
 import datetime
 import logging
+import asyncio
 from typing import Dict, List, Optional
 
 # --- CRITICAL IMPORTS FOR AGENTZ ---
@@ -19,8 +20,8 @@ from dotenv import load_dotenv
 
 # Import Principles from the local package
 from .prompts import LEXSCI_SYSTEM_PROMPT, get_MISNOMER_PROMPT
-from .RESEARCH_AGENT import RESEARCH_AGENT
-from .GATHERSTATE_AGENT_2 import GATHERSTATE_AGENT
+from .AGENTS.RESEARCH_AGENT import RESEARCH_AGENT
+from .AGENTS.GATHERSTATE_AGENT_2 import GATHERSTATE_AGENT
 
 # _________________________________________________________________ RETRY_CONFIG:
 # retry_config=types.HttpRetryOptions(
@@ -38,6 +39,7 @@ from .GATHERSTATE_AGENT_2 import GATHERSTATE_AGENT
 # USER_ID = "spaceOTTER" #"default"  # User
 # MODEL_NAME = "gemini-2.5-flash"
 # # MODEL_NAME = "gemini-2.5-flash-lite"
+MAX_GATHER_ATTEMPTS = 3
 # print("✅ Constants Initialized.")
 
 
@@ -90,6 +92,14 @@ class ALPHABITZ_AGENTZ:
         """Reads the human-approved vocabulary."""
         try:
             with open(self.vocab_path, 'r') as f:
+                return json.load(f)
+        except json.JSONDecodeError:
+            return {}
+
+    def load_pending_vocabulary(self) -> Dict:
+        """Reads the pending review vocabulary."""
+        try:
+            with open(self.pending_path, 'r') as f:
                 return json.load(f)
         except json.JSONDecodeError:
             return {}
@@ -297,11 +307,49 @@ class ALPHABITZ_AGENTZ:
         
         # 1. Gather Misnomers
         logger.info("Gathering Misnomers...")
-        existing_vocab_keys=self.load_consensus_vocabulary()
-        misnomers = await gather_agent.gather_misnomer_MECH(existing_vocab_keys)
+        
+        # Load both consensus and pending vocabularies
+        consensus_vocab = self.load_consensus_vocabulary()
+        pending_vocab = self.load_pending_vocabulary()
+        
+        # Combine keys from both to create the exclusion list
+        existing_keys = list(consensus_vocab.keys()) + list(pending_vocab.keys())
+        
+        misnomers = "LEXICAL_UNDEFINED"
+        
+            # Retry Loop
+        for attempt in range(MAX_GATHER_ATTEMPTS):
+            logger.info(f"Gather Attempt {attempt + 1}/{MAX_GATHER_ATTEMPTS}...")
+            
+            # Gather candidate
+            candidate = await gather_agent.gather_misnomer_MECH(existing_keys)
+            
+            # Check for API Limit Error
+            if candidate == "API_LIMIT_REACHED":
+                logger.error("Gather Loop Aborted due to API Rate Limit.")
+                return
 
+            # Simple normalization for check: strip whitespace and quotes
+            # The agent might return "Concept" or 'Concept'
+            candidate_clean = candidate.strip().strip("'").strip('"')
+            
+            # Check for duplication (case-insensitive check against existing keys)
+            is_duplicate = any(k.lower() == candidate_clean.lower() for k in existing_keys)
+            
+            if is_duplicate:
+                logger.warning(f"Duplicate Target Found: '{candidate_clean}'. Retrying...")
+                # Add it to existing_keys temporarily so next prompt excludes it explicitly if passed again
+                existing_keys.append(candidate_clean)
+                await asyncio.sleep(2) # Pace the retries
+                continue
+            else:
+                logger.info(f"Unique Target Acquired: '{candidate_clean}'")
+                misnomers = candidate_clean
+                break
+
+        
         if misnomers == "LEXICAL_UNDEFINED":
-            logger.warning("Mission Aborted: No target found.")
+            logger.warning("Mission Aborted: Could not find unique target after max attempts.")
             return
 
         # 4. Exactify
