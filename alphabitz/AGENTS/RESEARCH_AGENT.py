@@ -13,6 +13,7 @@ retry_config=types.HttpRetryOptions(
 )
 
 MODEL_NAME = "gemini-2.5-flash"
+# MODEL_NAME = "gemini-1.5-pro"
 
 
 RESEARCH_AGENT = Agent(

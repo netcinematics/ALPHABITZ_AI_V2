@@ -42,7 +42,8 @@ from .AGENTS.GATHERSTATE_AGENT_2 import GATHERSTATE_AGENT
 MAX_GATHER_ATTEMPTS = 3
 # print("✅ Constants Initialized.")
 
-
+# MODEL_NAME = "gemini-2.5-flash"
+MODEL_NAME = "gemini-1.5-flash-latest"
 
 # Setup Logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - AXI - %(message)s')
@@ -65,7 +66,8 @@ class ALPHABITZ_AGENTZ:
                 genai.configure(api_key=self.api_key)
                 # Initialize the specific model for Exactification
                 self.model = genai.GenerativeModel(
-                    'gemini-2.5-flash', 
+                   MODEL_NAME, 
+                    # 'gemini-2.5-flash', 
                     system_instruction=LEXSCI_SYSTEM_PROMPT
                 )
                 logger.info("Gemini Model configured successfully.")
@@ -154,7 +156,7 @@ class ALPHABITZ_AGENTZ:
             
             # Add metadata
             data['timestamp'] = datetime.datetime.now().isoformat()
-            data['version'] = "LEXSCI_v1"
+            data['version'] = "ALPHABITZ_v2"
             return data
         except Exception as e:
             logger.error(f"Exactification failed: {e}")

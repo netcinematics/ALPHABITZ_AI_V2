@@ -18,8 +18,9 @@ retry_config = types.HttpRetryOptions(
     http_status_codes=[429, 500, 503, 504]
 )
 
-MODEL_NAME = "gemini-2.0-flash-exp"
-# MODEL_NAME = "gemini-2.5-flash"
+# MODEL_NAME = "gemini-2.0-flash-exp"
+MODEL_NAME = "gemini-2.5-flash"
+# MODEL_NAME = "gemini-1.5-flash-pro"
 
 class GATHERSTATE_AGENT:
     """

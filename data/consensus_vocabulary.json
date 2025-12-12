@@ -130,7 +130,7 @@
         ],
         "confidence_score": 0.98,
         "timestamp": "2025-12-09T21:48:05.957147",
-        "version": "LEXSCI_v1"
+        "version": "ALPHABITZ_v2"
     },
     "Observer Effect": {
         "target_concept": "Observer Effect",
@@ -171,6 +171,6 @@
         ],
         "confidence_score": 0.98,
         "timestamp": "2025-12-09T22:11:13.203565",
-        "version": "LEXSCI_v1"
+        "version": "ALPHABITZ_v2"
     }
 }
