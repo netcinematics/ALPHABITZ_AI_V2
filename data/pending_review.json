@@ -116,5 +116,308 @@
         "confidence_score": 1.0,
         "timestamp": "2025-12-11T23:07:38.946567",
         "version": "ALPHABITZ_v2"
+    },
+    "Artificial Intelligence": {
+        "target_concept": "Artificial Intelligence",
+        "status": "EXACTIFIED",
+        "ontological_anchor": "The simulation of cognitive processes by machines, particularly computer systems.",
+        "misnomer_analysis": {
+            "common_usage": "Refers to machines that think, feel, or possess consciousness like humans.",
+            "scientific_reality": "Refers to algorithms and computational models that can perform tasks typically requiring human intelligence, such as learning, problem-solving, decision-making, and pattern recognition, through data processing and computation.",
+            "correction": "Machine Cognitive Simulation: The computational modeling and execution of processes that mimic or augment human cognitive functions."
+        },
+        "derivation_trace": "The term 'Artificial Intelligence' is a misnomer because it implies a genuine sentience or 'intelligence' akin to biological consciousness, which is not what current or foreseeable machine systems achieve. Instead, they simulate specific cognitive *functions* through computational means. The 'artificial' aspect correctly points to its non-biological origin, but 'intelligence' overstates the reality. The derivation focuses on the 'simulation' of 'cognitive' processes by 'machines' (computer systems). This leads to the atomic components: identifying the nature of the input (data), the process (computation/algorithms), the output (task performance), and the underlying architecture (machine/system).",
+        "lexical_bitz": [
+            {
+                "id": "BIT_001",
+                "name": "Cognitive Function Simulation",
+                "function": "Models and executes tasks that are analogous to human cognitive abilities (e.g., perception, reasoning, learning, problem-solving)."
+            },
+            {
+                "id": "BIT_002",
+                "name": "Algorithmic Processing",
+                "function": "Utilizes defined sets of rules, instructions, and computational methods to process input data and generate outputs."
+            },
+            {
+                "id": "BIT_003",
+                "name": "Data-Driven Learning",
+                "function": "Ability of the system to improve its performance on a task by being exposed to and processing data, without explicit reprogramming for every scenario."
+            },
+            {
+                "id": "BIT_004",
+                "name": "Task-Oriented Execution",
+                "function": "Focuses on achieving specific, measurable goals or performing defined tasks, rather than general self-awareness or subjective experience."
+            },
+            {
+                "id": "BIT_005",
+                "name": "Machine Substrate",
+                "function": "Operates on a physical or virtual computational infrastructure (hardware and software)."
+            }
+        ],
+        "confidence_score": 0.95,
+        "timestamp": "2025-12-12T19:35:38.856760",
+        "version": "ALPHABITZ_v2"
+    },
+    "Artificial General Intelligence (AGI)": {
+        "target_concept": "Artificial General Intelligence (AGI)",
+        "status": "EXACTIFIED",
+        "ontological_anchor": "A hypothetical computational system capable of understanding, learning, and applying knowledge across a wide range of tasks and domains, comparable to human cognitive abilities, without being pre-programmed for specific tasks.",
+        "misnomer_analysis": {
+            "common_usage": "Often used interchangeably with advanced AI, sophisticated machine learning models, or AI that can perform many tasks. It sometimes implies sentience or consciousness, which is not a core requirement for AGI.",
+            "scientific_reality": "AGI refers to the *breadth* and *adaptability* of intelligence, not necessarily its depth or the presence of subjective experience. It's about the capacity to generalize learning and problem-solving to novel, unseen situations across diverse domains.",
+            "correction": "A computational system exhibiting flexible, adaptive, and generalized cognitive capabilities across a wide spectrum of tasks and domains, analogous to human-level cognitive flexibility."
+        },
+        "derivation_trace": "The term 'Artificial General Intelligence' (AGI) commonly implies a broad, human-like intelligence. However, the 'general' aspect is the most critical differentiator from Narrow AI (ANI). The 'intelligence' is the capability, and 'artificial' signifies its manufactured, non-biological origin. The common misnomer is overemphasizing the 'artificial' as a proxy for 'human-like' or 'sentient', which conflates the functional capability of generalization with subjective experience. The scientific reality focuses on the *transferability* and *adaptability* of cognitive functions. Therefore, the Lexical Bitz must capture this generalized, adaptive, and cross-domain capability, distinct from task-specific prowess.",
+        "lexical_bitz": [
+            {
+                "id": "BIT_GEN_COG_CAP",
+                "name": "Generalized Cognitive Capability",
+                "function": "Represents the ability of the system to apply its learned knowledge, reasoning, and problem-solving skills to a wide variety of tasks and domains, not limited to those for which it was explicitly trained."
+            },
+            {
+                "id": "BIT_ADPT_LEARN",
+                "name": "Adaptive Learning",
+                "function": "Denotes the capacity of the system to learn new information and skills from new experiences, and to adjust its behavior and understanding dynamically based on environmental feedback or novel challenges."
+            },
+            {
+                "id": "BIT_TASK_INDEP",
+                "name": "Task Independence",
+                "function": "Defines the characteristic that the system's intelligence is not tied to a pre-defined, narrow set of tasks. It implies the ability to tackle unforeseen problems and acquire new task proficiencies."
+            },
+            {
+                "id": "BIT_DOMAIN_XFER",
+                "name": "Cross-Domain Transfer",
+                "function": "Captures the essential property of being able to transfer learning and insights from one domain of knowledge or problem-solving to another, demonstrating a fundamental understanding rather than pattern matching within a silo."
+            },
+            {
+                "id": "BIT_COMP_ANALOGY",
+                "name": "Computational Analogy",
+                "function": "Specifies that the intelligence is manifested through computational processes, aiming for functional equivalence to human cognitive abilities in terms of breadth and flexibility, without necessarily replicating biological mechanisms or requiring sentience."
+            }
+        ],
+        "confidence_score": 0.95,
+        "timestamp": "2025-12-12T19:48:34.695715",
+        "version": "ALPHABITZ_v2"
+    },
+    "Big Bang": {
+        "target_concept": "Big Bang",
+        "status": "EXACTIFIED",
+        "ontological_anchor": "The rapid expansion and subsequent cooling of the universe from an extremely hot, dense state.",
+        "misnomer_analysis": {
+            "common_usage": "A singular, explosive event that 'created' the universe out of nothing, akin to a bomb going off.",
+            "scientific_reality": "A continuous process of expansion originating from a state of extreme energy density. It describes the *evolution* of the universe, not its absolute origin from a void. It was not an explosion *in* space, but an expansion *of* space itself.",
+            "correction": "The initial, rapid expansion and subsequent cooling of spacetime from a singularity of immense energy density, leading to the formation of all matter, energy, and the physical laws as we understand them."
+        },
+        "derivation_trace": "The common usage of 'Big Bang' as a simple explosion is a misnomer because it implies an event happening within pre-existing space, rather than the expansion of spacetime itself. This overlooks the crucial concepts of rapid inflation, cooling, and the subsequent evolution of the universe. The 'explosion' analogy fails to capture the continuous nature of expansion and the origin of physical laws. Therefore, we need Bitz that describe the initial state, the expansion dynamics, and the resulting state of the universe. The term 'Bang' is retained for its popular recognition, but its 'Bigness' and 'Expanse' are redefined to reflect scientific understanding.",
+        "lexical_bitz": [
+            {
+                "id": "BIT_INITIAL_STATE_DENSITY_ENERGY",
+                "name": "Initial State: Density & Energy",
+                "function": "Represents the universe at t=0 (or extremely close to it) as a point of near-infinite density and temperature, containing all the energy and potential for spacetime."
+            },
+            {
+                "id": "BIT_RAPID_EXPANSION_INFLATION",
+                "name": "Rapid Expansion & Inflation",
+                "function": "Represents the period of exponential spatial expansion that occurred fractions of a second after the initial state, greatly increasing the size of the universe."
+            },
+            {
+                "id": "BIT_SUBSEQUENT_COOLING_PHASE_TRANSITIONS",
+                "name": "Subsequent Cooling & Phase Transitions",
+                "function": "Represents the continuous, decelerating expansion of space, during which the universe cooled, allowing for the formation of fundamental particles, atoms, and eventually larger structures through various physical phase transitions."
+            },
+            {
+                "id": "BIT_SPACETIME_METRIC_EVOLUTION",
+                "name": "Spacetime Metric Evolution",
+                "function": "Represents the fundamental concept that space and time themselves are dynamic entities that expanded and evolved from the initial state, not a fixed background upon which events occurred."
+            },
+            {
+                "id": "BIT_UNIVERSAL_SCALE_FACTOR",
+                "name": "Universal Scale Factor",
+                "function": "Quantifies the relative expansion of the universe over time, acting as a measure of its growth from the initial, dense state."
+            }
+        ],
+        "confidence_score": 0.95,
+        "timestamp": "2025-12-12T20:07:55.628955",
+        "version": "ALPHABITZ_v2"
+    },
+    "Guinea Pig": {
+        "target_concept": "Guinea Pig",
+        "status": "EXACTIFIED",
+        "ontological_anchor": "Cavia porcellus, a domesticated rodent species originating from South America, commonly kept as a pet or for laboratory research.",
+        "misnomer_analysis": {
+            "common_usage": "A small, furry pet animal, often perceived as a 'pig' due to its roundish body shape and vocalizations, and sometimes associated with 'Guinea' for unclear historical or geographical reasons.",
+            "scientific_reality": "A specific species of rodent (Cavia porcellus) belonging to the family Caviidae. The name 'Guinea' is widely believed to be a corruption or misattribution, with no definitive link to the country of Guinea in Africa. The 'pig' part likely refers to its stout build and grunt-like vocalizations, similar to domestic pigs.",
+            "correction": "Cavia porcellus (domesticated rodent)."
+        },
+        "derivation_trace": "The common name 'Guinea Pig' is a misnomer because it is not a pig and its origin is not demonstrably from Guinea. The scientific reality points to a specific species of rodent. Therefore, the 'lexical bitz' must capture its species, its classification as a rodent, and its domesticated status, while implicitly acknowledging and correcting the misattribution of 'Guinea' and 'Pig'.",
+        "lexical_bitz": [
+            {
+                "id": "BIT_CAVIIDAE_001",
+                "name": "Caviidae Family Identifier",
+                "function": "Categorizes the organism within the biological family Caviidae, which specifically encompasses the guinea pig genus and its close relatives."
+            },
+            {
+                "id": "BIT_PORCELLUS_001",
+                "name": "Porcellus Species Identifier",
+                "function": "Designates the specific species *porcellus*, differentiating it from other species within the Caviidae family and confirming its identity as the commonly known 'guinea pig'."
+            },
+            {
+                "id": "BIT_RODENTIA_001",
+                "name": "Rodentia Order Identifier",
+                "function": "Classifies the organism within the order Rodentia, the largest order of mammals, characterized by a single pair of continuously growing incisors in each of the upper and lower jaws. This corrects the 'pig' misnomer by accurately placing it within its mammalian order."
+            },
+            {
+                "id": "BIT_DOMESTICATED_001",
+                "name": "Domesticated Status Indicator",
+                "function": "Specifies that this particular species (*Cavia porcellus*) has undergone domestication from its wild ancestors and is commonly kept by humans as a pet or for research purposes, differentiating it from wild cavies."
+            }
+        ],
+        "confidence_score": 0.95,
+        "timestamp": "2025-12-12T20:14:20.797070",
+        "version": "ALPHABITZ_v2"
+    },
+    "French Horn": {
+        "target_concept": "French Horn",
+        "status": "EXACTIFIED",
+        "ontological_anchor": "A brass musical instrument characterized by its long, coiled tubing, a wide, conical bell, and a rotary valve system, producing a warm, mellow tone.",
+        "misnomer_analysis": {
+            "common_usage": "Referred to as a 'French horn', implying a specific national origin or exclusive association with France. The term 'horn' is also very general and can refer to many different instruments.",
+            "scientific_reality": "The instrument's origins are complex, evolving from the German hunting horn, and it's now a standard orchestral instrument used globally. The 'French' prefix is an anachronism that doesn't accurately reflect its development or current global usage. The term 'horn' itself is a broad category of wind instruments.",
+            "correction": "Cornu Officinale (Orchestral) - 'Cornu' (Latin for horn, acknowledging its ancestral roots and broader instrument family) and 'Officinale' (Latin for 'of the office' or 'of the workshop', signifying its role as a standard, established orchestral instrument, distinct from less standardized or historical variants)."
+        },
+        "derivation_trace": "The common usage 'French Horn' is misleading because the instrument's development is more closely linked to German hunting horns, and its modern form is an international orchestral standard. The 'French' aspect is not definitive. The generic term 'horn' fails to distinguish it from other instruments in the 'horn' family. Therefore, to exactify, we must: 1. Acknowledge its lineage and place within the broader horn family ('Cornu'). 2. Denote its established, standardized role in professional music ('Officinale'), moving away from the geographically restrictive and historically inaccurate 'French' qualifier.",
+        "lexical_bitz": [
+            {
+                "id": "BIT_VALVE_ROTARY",
+                "name": "Rotary Valve Mechanism",
+                "function": "The core mechanical system that, when activated, redirects airflow through additional lengths of tubing to change the instrument's pitch by altering the effective length of the air column."
+            },
+            {
+                "id": "BIT_TUBING_COILED_LONG",
+                "name": "Long, Coiled Tubing",
+                "function": "The extensive, helically wound tubing (typically ~12 feet or 3.7 meters) which, when combined with the valve system, determines the fundamental pitch range and resonant frequencies of the instrument."
+            },
+            {
+                "id": "BIT_BELL_CONICAL_WIDE",
+                "name": "Wide, Conical Bell",
+                "function": "The flared opening at the end of the instrument responsible for projecting the sound waves produced by the vibrating air column, and contributing significantly to the instrument's characteristic warm and mellow timbre."
+            },
+            {
+                "id": "BIT_MOUTHPIECE_CUPPED",
+                "name": "Cupped Mouthpiece",
+                "function": "A small, cup-shaped piece inserted into the leadpipe, into which the player buzzes their lips to initiate the vibration of the air column within the instrument."
+            },
+            {
+                "id": "BIT_RANGE_WIDE_ALTO",
+                "name": "Wide Alto Register",
+                "function": "The characteristic tonal range, typically encompassing a broad spectrum within the alto register, enabling both lyrical melodic lines and powerful harmonic contributions, particularly in orchestral settings."
+            }
+        ],
+        "confidence_score": 0.95,
+        "timestamp": "2025-12-12T20:14:24.851148",
+        "version": "ALPHABITZ_v2"
+    },
+    "Funny Bone": {
+        "target_concept": "Funny Bone",
+        "status": "EXACTIFIED",
+        "ontological_anchor": "Nerve impingement causing paresthesia.",
+        "misnomer_analysis": {
+            "common_usage": "People believe there's a specific bone in the elbow that causes a funny sensation when hit.",
+            "scientific_reality": "When the ulnar nerve, which runs near the surface of the elbow, is struck or compressed, it can cause a tingling, shock-like, or even painful sensation. This is not due to a bone's inherent 'funniness' but to the nerve's irritation.",
+            "correction": "The sensation commonly referred to as 'hitting your funny bone' is more accurately described as 'ulnar nerve paresthesia due to mechanical irritation'."
+        },
+        "derivation_trace": "The common term 'funny bone' implies a specific bone is responsible for the sensation. The reality is that it's a nerve that gets stimulated. The 'funniness' is a misattribution of cause. The derivation traces this misattribution to the physical act of nerve compression, leading to the identification of the ulnar nerve as the primary actor and the mechanical impact as the trigger.",
+        "lexical_bitz": [
+            {
+                "id": "ULNAR_NERVE",
+                "name": "Ulnar Nerve",
+                "function": "The peripheral nerve that, when stimulated, produces the characteristic tingling, shocking, or aching sensation."
+            },
+            {
+                "id": "MECHANICAL_impingement",
+                "name": "Mechanical Impingement",
+                "function": "The physical impact or pressure applied to the ulnar nerve, causing its irritation."
+            },
+            {
+                "id": "PARESTHESIA",
+                "name": "Paresthesia",
+                "function": "The specific sensory phenomenon (tingling, prickling, 'pins and needles', pain) experienced due to nerve irritation."
+            },
+            {
+                "id": "NEURAL_TRANSMISSION_distraction",
+                "name": "Neural Transmission Distraction",
+                "function": "The disruption of normal nerve signal transmission along the ulnar nerve pathway, leading to aberrant sensory perception."
+            }
+        ],
+        "confidence_score": 0.95,
+        "timestamp": "2025-12-12T20:14:27.169632",
+        "version": "ALPHABITZ_v2"
+    },
+    "Dutch": {
+        "target_concept": "Dutch",
+        "status": "EXACTIFIED",
+        "ontological_anchor": "A nationality or language originating from the historical region of the Netherlands, characterized by specific linguistic, cultural, and genetic markers.",
+        "misnomer_analysis": {
+            "common_usage": "Refers to people from the Netherlands, their language, or their cultural heritage. It's often used broadly to encompass anything associated with that country, sometimes including historical colonial contexts or even people of similar Northern European descent.",
+            "scientific_reality": "Refers specifically to the inhabitants of the Netherlands (a sovereign state in Western Europe) and the Dutch language (a West Germanic language). It also encompasses the distinct cultural and historical lineage of this specific population group. The term 'Dutch' itself is derived from the Old High German 'diutisc', meaning 'of the people'.",
+            "correction": "A person of the nationality of the Kingdom of the Netherlands, or the West Germanic language spoken by such persons. Culturally, it refers to the shared traditions, history, and identity of this specific group."
+        },
+        "derivation_trace": "The common usage of 'Dutch' is broad and can be imprecise. It's often used as a shorthand for 'Nederlander' (a citizen of the Netherlands) or 'Nederlands' (the Dutch language). The term's etymology ('diutisc' - 'of the people') suggests a connection to a specific populace. To exactify, we need to distinguish between nationality, language, and broader cultural association, while anchoring it to the specific geographic and political entity of the Netherlands and its historical linguistic development. The misnomer lies in its conflation of these distinct, albeit related, concepts and its potential for overgeneralization.",
+        "lexical_bitz": [
+            {
+                "id": "NAT_NLD_001",
+                "name": "Nationality: Netherlands",
+                "function": "Designates an individual as a citizen or legal resident of the Kingdom of the Netherlands, adhering to its national laws and possessing its citizenship rights."
+            },
+            {
+                "id": "LANG_NLD_001",
+                "name": "Language: Dutch",
+                "function": "Identifies the West Germanic language spoken in the Netherlands, characterized by its specific phonology, grammar, and lexicon, as codified by historical linguistic development and modern standards."
+            },
+            {
+                "id": "CULT_NLD_001",
+                "name": "Culture: Netherlands",
+                "function": "Encompasses the shared historical experiences, social customs, artistic expressions, and societal norms that are historically and geographically specific to the people of the Netherlands."
+            },
+            {
+                "id": "HIST_ETH_001",
+                "name": "Ethnicity: Dutch",
+                "function": "Refers to a population group with a shared ancestry, historical origins, and common cultural heritage rooted in the region historically known as the Low Countries and the modern Kingdom of the Netherlands."
+            }
+        ],
+        "confidence_score": 0.95,
+        "timestamp": "2025-12-12T20:14:30.698839",
+        "version": "ALPHABITZ_v2"
+    },
+    "Panama Hat": {
+        "target_concept": "Panama Hat",
+        "status": "EXACTIFIED",
+        "ontological_anchor": "A traditional brimmed hat made from the plaited leaves of the *Carludovica palmata* plant, woven in Ecuador.",
+        "misnomer_analysis": {
+            "common_usage": "A hat commonly associated with Panama due to its historical export route and popularity among travelers passing through the country, particularly during the construction of the Panama Canal.",
+            "scientific_reality": "The hat is a product of specific weaving techniques and agricultural resources indigenous to Ecuador, specifically the Pacific coast. Its name is a historical artifact of trade routes, not its origin of manufacture.",
+            "correction": "Ecuadorian Straw Hat"
+        },
+        "derivation_trace": "The common name 'Panama Hat' is a misnomer because it identifies the hat by its historical transit point and export hub (Panama) rather than its true geographical origin and manufacturing locus (Ecuador). The 'hat' aspect is accurate, but the 'Panama' modifier is misleading regarding its genesis. Therefore, the exactification must replace the misnomer with the origin of manufacture and the material/technique. The primary material is straw from the *Carludovica palmata* plant, and the weaving is a specific craft originating from Ecuador. Thus, 'Ecuadorian Straw Hat' precisely captures the ontological anchor.",
+        "lexical_bitz": [
+            {
+                "id": "BIT_GEO_MANUF",
+                "name": "Geographical Origin of Manufacture",
+                "function": "Identifies the specific region where the hat is traditionally produced. In this case, Ecuador."
+            },
+            {
+                "id": "BIT_MATERIAL_WEAVE",
+                "name": "Material and Weaving Technique",
+                "function": "Specifies the raw material (straw from *Carludovica palmata*) and the characteristic weaving process that defines this type of hat."
+            },
+            {
+                "id": "BIT_FORM_HEADWEAR",
+                "name": "Form: Headwear",
+                "function": "Confirms the item is a piece of clothing designed to be worn on the head."
+            }
+        ],
+        "confidence_score": 0.98,
+        "timestamp": "2025-12-12T20:14:33.016234",
+        "version": "ALPHABITZ_v2"
     }
 }

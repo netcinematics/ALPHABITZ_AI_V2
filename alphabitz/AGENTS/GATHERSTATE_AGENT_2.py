@@ -6,6 +6,9 @@ from google.adk.tools import google_search
 from google.genai import types
 from google.api_core.exceptions import ResourceExhausted
 import logging
+import random
+import ast
+import re
 from typing import Dict, List, Optional
 
 # Configure Logging
@@ -44,7 +47,8 @@ class GATHERSTATE_AGENT:
             
             CRITICAL RULE: You MUST check the provided Exclusion List. 
             NEVER return a concept that is already in the Exclusion List.
-            Return the highest ranked unique topics first.
+            Return COMMON, everyday misnomers. Do not prioritize the "highest ranked" or most famous scientific ones if they are excluded.
+            Diversity and variety are key.
             """,
             tools=[google_search],
         )
@@ -59,35 +63,66 @@ class GATHERSTATE_AGENT:
                      return event.content.parts[0].text.strip()
         return str(events)
 
-    async def gather_misnomer_MECH(self, context: str = "", existing_vocab_keys: List[str] = []) -> str:
+    async def gather_misnomer_MECH(self, context: str = "", existing_vocab_keys: List[str] = []) -> List[str]:
         """
         Gathers Misnomer concepts.
         """
         logger.info("Running gather_misnomer_MECH...")
+        # Prepare the prompt string
         prompt = f"""
-        Find a concept that is misunderstood by the general public but has a specific 
-        technical reality. Focus on AI, Neuroscience, Psychology, Sociology, or Quantum Mechanics.
+        Find 5 DISTINCT, COMMON misnomers from different fields (Science, History, Technology, Psychology).
+        Do NOT focus only on AI.
         
         FORBIDDEN CONCEPTS (ALREADY FOUND): 
-        {existing_vocab_keys}
+        {", ".join(existing_vocab_keys)}
         
-        INSTRUCTION: Ignore all concepts in the Forbidden List. Find a NEW, UNIQUE concept.
-        Return ONLY the concept name.
+        INSTRUCTION: Return a Python list of strings containing 5 new, unique misnomers.
+        Strictly output the list ONLY. No "Here are..." preamble. No Markdown bullets.
+        Example format: ["Cloud Computing", "Survival of the Fittest", "Dark Ages"]
         """
-        # Search for significant MISNOMERS in current technology, science, or culture.
-        # Find concepts that are widely used but technically incorrect.
-        # Context: {context}
-        # Return a list of top 3 misnomers, ranked by impact.
-        # Format: 1. [Concept] - [Brief Reason]
         try:
             response_events = await self.runner.run_debug(prompt)
-            # return str(response_events)
-            response_tgt = self._extract_text_from_events(response_events)
-            logger.info(f"Gathered misnomers: {response_tgt}")
-            return str(response_tgt)
+            response_text = self._extract_text_from_events(response_events)
+            
+            candidates = []
+            
+            # Attempt 1: Parse as Python list
+            try:
+                # Clean code blocks and preambles
+                clean_text = response_text.replace("```python", "").replace("```json", "").replace("```", "").strip()
+                # Try to find the list bracket start/end
+                if '[' in clean_text and ']' in clean_text:
+                    start = clean_text.find('[')
+                    end = clean_text.rfind(']') + 1
+                    clean_text = clean_text[start:end]
+                
+                candidates = ast.literal_eval(clean_text)
+            except:
+                logger.warning("Could not parse list with ast.literal_eval. Trying regex fallback.")
+                
+                # Attempt 2: Regex for bullets or numbered lists
+                # Matches: * Item  OR  1. Item  OR  - Item
+                matches = re.findall(r'(?:^\s*[\*\-\+]|\d+\.)\s+(.+)$', response_text, re.MULTILINE)
+                if matches:
+                     # Clean up bolding like **Science:** The Big Bang -> The Big Bang
+                     candidates = [re.sub(r'\*\*.*?\*\*[:\-]?\s*', '', m).strip() for m in matches]
+
+            if isinstance(candidates, list) and candidates:
+                 # Filter duplicates
+                 unique_candidates = [c for c in candidates if c not in existing_vocab_keys]
+                 if unique_candidates:
+                     logger.info(f"Gathered {len(unique_candidates)} unique candidates: {unique_candidates}")
+                     return unique_candidates
+                 else:
+                     logger.warning("All returned candidates were duplicates.")
+                     return []
+            
+            # Fallback
+            logger.warning("Parsing failed completely. Returning empty list.")
+            return [] 
         except ResourceExhausted:
             logger.error("API Quota Reached (429). Halting GATHERSTATE_AGENT.")
-            return "API_LIMIT_REACHED"
+            return []
 
     async def gather_cliche_MECH(self, context: str = "") -> str:
         """

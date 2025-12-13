@@ -50,6 +50,11 @@ MODEL_NAME = "gemini-2.5-flash-lite"
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - AXI - %(message)s')
 logger = logging.getLogger(__name__)
 
+# Silence verbose library logs
+logging.getLogger("google.genai").setLevel(logging.WARNING)
+logging.getLogger("httpcore").setLevel(logging.WARNING)
+logging.getLogger("httpx").setLevel(logging.WARNING)
+
 class ALPHABITZ_AGENTZ:
     def __init__(self, vocab_path: str = "data/consensus.json", pending_path: str = "data/pending_review.json"):
         # 1. Load Environment Variables (looks for .env file)
@@ -155,6 +160,13 @@ class ALPHABITZ_AGENTZ:
             clean_text = response.text.replace("```json", "").replace("```", "").strip()
             data = json.loads(clean_text)
             
+            # Robustness: Handle if model returns a list [ {...} ]
+            if isinstance(data, list):
+                if len(data) > 0:
+                    data = data[0]
+                else:
+                    raise ValueError("Model returned an empty list.")
+
             # Add metadata
             data['timestamp'] = datetime.datetime.now().isoformat()
             data['version'] = "ALPHABITZ_v2"
@@ -317,51 +329,57 @@ class ALPHABITZ_AGENTZ:
         
         # Combine keys from both to create the exclusion list
         existing_keys = list(consensus_vocab.keys()) + list(pending_vocab.keys())
+        logger.info(f"Loaded {len(existing_keys)} existing concepts for exclusion: {existing_keys}")
         
         misnomers = "LEXICAL_UNDEFINED"
         
-            # Retry Loop
+        misnomers_processed_count = 0
+        
+        # Retry Loop
         for attempt in range(MAX_GATHER_ATTEMPTS):
             logger.info(f"Gather Attempt {attempt + 1}/{MAX_GATHER_ATTEMPTS}...")
             
-            # Gather candidate
-            candidate = await gather_agent.gather_misnomer_MECH(existing_keys)
+            # Gather candidates (returns a list now)
+            candidates_list = await gather_agent.gather_misnomer_MECH(existing_vocab_keys=existing_keys)
             
-            # Check for API Limit Error
-            if candidate == "API_LIMIT_REACHED":
-                logger.error("Gather Loop Aborted due to API Rate Limit.")
-                return
-
-            # Simple normalization for check: strip whitespace and quotes
-            # The agent might return "Concept" or 'Concept'
-            candidate_clean = candidate.strip().strip("'").strip('"')
-            
-            # Check for duplication (case-insensitive check against existing keys)
-            is_duplicate = any(k.lower() == candidate_clean.lower() for k in existing_keys)
-            
-            if is_duplicate:
-                logger.warning(f"Duplicate Target Found: '{candidate_clean}'. Retrying...")
-                # Add it to existing_keys temporarily so next prompt excludes it explicitly if passed again
-                existing_keys.append(candidate_clean)
-                await asyncio.sleep(2) # Pace the retries
+            if not candidates_list:
+                logger.warning("No valid candidates found in this attempt.")
+                await asyncio.sleep(2)
                 continue
-            else:
-                logger.info(f"Unique Target Acquired: '{candidate_clean}'")
-                misnomers = candidate_clean
-                break
 
+            for candidate in candidates_list:
+                # Simple normalization
+                candidate_clean = candidate.strip().strip("'").strip('"')
+                candidate_clean = candidate_clean.replace("MISNOMER: ", "").replace("Misnomer: ", "")
+                candidate_clean = candidate_clean.replace("CONCEPT: ", "").replace("Concept: ", "")
+                
+                # Check for duplication again (just in case)
+                is_duplicate = any(k.lower() == candidate_clean.lower() for k in existing_keys)
+                
+                if is_duplicate:
+                    logger.warning(f"Duplicate Target Found: '{candidate_clean}'. Skipping.")
+                    continue
+                
+                logger.info(f"Processing Unique Target: '{candidate_clean}'")
+                
+                # 4. Exactify
+                result = self._exactify_process(candidate_clean)
+
+                # 5. Save to Pending (Human Loop)
+                if "error" in result:
+                    logger.warning(f"Skipping save to pending due to error: {result['error']}")
+                else:
+                    self._save_to_pending(candidate_clean, result)
+                    misnomers_processed_count += 1
+                    # Add to existing keys so we don't process it again in this very loop if duplicated in batch
+                    existing_keys.append(candidate_clean)
+            
+            if misnomers_processed_count > 0:
+                logger.info(f"Successfully processed {misnomers_processed_count} misnomers.")
+                break # We found and processed items, so we can stop the gather retry loop
         
-        if misnomers == "LEXICAL_UNDEFINED":
-            logger.warning("Mission Aborted: Could not find unique target after max attempts.")
-            return
-
-        # 4. Exactify
-        result = self._exactify_process(misnomers)
-        # 5. Save to Pending (Human Loop)
-        if "error" in result:
-             logger.warning(f"Skipping save to pending due to error: {result['error']}")
-        else:
-             self._save_to_pending(misnomers, result)
+        if misnomers_processed_count == 0:
+            logger.warning("Mission Aborted: Could not find any unique targets after max attempts.")
 
 
         # misnomers = await gather_agent.gather_misnomer_MECH()
