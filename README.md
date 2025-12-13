@@ -23,6 +23,10 @@ python arbitrate.py
 
 #### TESTS:
 pytest tests/
+
+Flask Dev Server:
+python app.py
+http://127.0.0.1:5000
 ___
 
 ## CREATION PROMPTS:
