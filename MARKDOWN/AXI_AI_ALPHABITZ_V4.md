@@ -353,7 +353,7 @@ ___
 
 > Exactly not "super", or "general" - but "EXTRA" dimensionality - awaits.
 
-<img width="4%" alt="Screenshot 2025-11-24 181852" src="https://github.com/user-attachments/assets/3d4550e5-40be-4a81-a3e1-5c5795f7137e" />
+<img width="44%" alt="Screenshot 2025-11-24 181852" src="https://github.com/user-attachments/assets/3d4550e5-40be-4a81-a3e1-5c5795f7137e" />
 
 
 ___
