@@ -1,4 +1,4 @@
-# AI_ALPHABITZ & AXI:
+# AI ALPHABITZ and AXI:
 
 > Increase "CONCEPTUAL_ACCESSIBILITY" with "ALPHABITZ".
 
@@ -7,7 +7,7 @@
 
 ___
 
-
+header img
 
 ___
 
@@ -175,10 +175,10 @@ print(pristineTXT)
 
 > Gemini proposes renaming "Dark Matter" to "BIT_MASS_ENERGY_CONTENT"!
 
-Where a human "arbiter" might simplify this to: "space_mass", for example.
+Where a human auditor might simplify this to: "space_mass", for example.
 
 
-
+second img
 
 
 #### Here was the LEXICAL_ANALYSIS:
@@ -211,7 +211,7 @@ The output is a Deterministic JSON object containing the Truth Trace.
 Audited by human with this Flask UI:
 
 
-<img width="545" height="325" alt="Screenshot 2025-12-12 004136" src="https://github.com/user-attachments/assets/04d4d12e-b5a6-4f2a-9cab-2fcef2a863ad" />
+<img width="50%" max-height="650" alt="Screenshot 2025-12-12 004136" src="https://github.com/user-attachments/assets/04d4d12e-b5a6-4f2a-9cab-2fcef2a863ad" />
 
 ___
 
