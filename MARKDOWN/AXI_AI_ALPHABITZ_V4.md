@@ -1,9 +1,13 @@
-# AXI_AI_ALPHABITZ 
+# AI_ALPHABITZ & AXI:
 
 > Increase "CONCEPTUAL_ACCESSIBILITY" with "ALPHABITZ".
 
 
 *Submission for: [Google AI Agents Writing Challenge](https://dev.to/challenges/google-kaggle-ai-agents-2025-11-10): Learning Reflections.*
+
+___
+
+
 
 ___
 
@@ -173,6 +177,10 @@ print(pristineTXT)
 
 Where a human "arbiter" might simplify this to: "space_mass", for example.
 
+
+
+
+
 #### Here was the LEXICAL_ANALYSIS:
 
 ```JSON
@@ -203,14 +211,17 @@ The output is a Deterministic JSON object containing the Truth Trace.
 Audited by human with this Flask UI:
 
 
-<img width="1098" height="650" alt="Screenshot 2025-12-12 004136" src="https://github.com/user-attachments/assets/04d4d12e-b5a6-4f2a-9cab-2fcef2a863ad" />
+<img width="545" height="325" alt="Screenshot 2025-12-12 004136" src="https://github.com/user-attachments/assets/04d4d12e-b5a6-4f2a-9cab-2fcef2a863ad" />
 
+___
 
-> FUTURE GOAL to RESOLVE: Semantic Drift, Shift, Cliche, Misnomer, Polysemy, Homonymy, Conjugation, and many more.
+### FUTURE GOALS:
 
-But then to "extend" the language into new language patterns - similar to ACRONYMS.
+> SOLVE: Semantic Drift, Cliche, Misnomer, Polysemy, Homonymy, Conjugation, and many more.
 
-> Any language fragility, confusion or incompleteness - is an opportunity for AI exactification.
+But then to "extend" the language into new language patterns. Similar to ACRONYMS, but with a more rigorous and consistent approach to language patterns. Aligned by principles of AXI NAMERATION.
+
+> Any language fragility, confusion, or incompleteness - is an opportunity for AI exactification.
 
 ___
 
