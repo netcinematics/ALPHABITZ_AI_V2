@@ -19,7 +19,7 @@ ___
 
 - LEXICAL_SCIENCE ("LEXSCI"), 
 
-- OPTIMIZED_INPUT_LANGUAGE ("AI_OIL"),
+- AI_OIL (OPTIMIZED_INPUT_LANGUAGE),
 
 ___
 
@@ -80,7 +80,7 @@ This is a fundamental DESIGN FLAW.
 
 We train AI with "Fragile_English" — a language full of Semantic Drift, Ambiguity, and Polysemy.
 
-Then AI "Hallucinates" because the input itself is structurally ambiguous.
+Then AI "Hallucinates" because the input itself is semantically ambiguous.
 
 We waste resources in compute, to "guess" the context that the fragile language fails to provide.
 
@@ -88,9 +88,13 @@ We waste resources in compute, to "guess" the context that the fragile language 
 
 We do not need to forever_train AI to avoid "Fragile_English".
 
-> We can "OPTIMIZE the input language".
+> We adopt a principle of "OPTIMIZE the INPUT LANGUAGE".
 
-An approach called AI_OIL (Optimized Input Language), is described (briefly) here.
+- What if we were able to redesign human language for the age of ai?
+
+- Might the (surprise) result of expanded vocabulary be actual_extra_intelligence?
+
+The approach of AI_OIL (Optimized_Input_Language), is one of many aspects of LEXICAL_SCIENCE - described in this brief.
 
 ___
 
