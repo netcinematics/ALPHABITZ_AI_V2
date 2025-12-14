@@ -288,7 +288,7 @@ But then "extend" ALPHABITZ "EXTRA_ABILITY" language patterns. Similar to ACRONY
 
 ___
 
-### 11) AUDITOR WORKFLOW:
+### 11) 🛡️ AUDITOR WORKFLOW 🛡️:
 
 
 - Input: A "Messy" Human Concept (e.g., "Dark Matter", "Consciousness in AI").
