@@ -7,7 +7,7 @@
 
 ___
 
-header img
+<img width="80%" max-height="1024" alt="axi_9" src="https://github.com/user-attachments/assets/9a780a62-29cc-4ed0-aa7d-5853bc817340" />
 
 ___
 
@@ -36,6 +36,10 @@ Kaggle Competition Notebook:
 
 Github Repository:
 - [Python library: ALPHABITZ_AI_V2](https://github.com/netcinematics/ALPHABITZ_AI_V2)
+
+___
+
+<img width="588" height="491" alt="ALPHABITZ_001" src="https://github.com/user-attachments/assets/23986acd-ba93-4605-b1d6-63eacf900509" />
 
 ___
 
