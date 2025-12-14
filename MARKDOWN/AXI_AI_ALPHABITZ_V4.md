@@ -47,6 +47,11 @@ ___
 
 ___
 
+### REFLECTION:
+
+> We learned that the ideas in this paper are practical, and accessible thanks to Gemini ADK Agents!
+___
+
 #### HISTORY of ALPHABITZ:
 
 - [Whitepaper - "GENERATIVE_INTELLIGENCE"](https://medium.com/@adapttheweb/generative-intelligence-4c6e8a6c50e8)
