@@ -13,13 +13,13 @@ ___
 
 ### KEY CONCEPTS: 
 
-- LEXICAL_SCIENCE ("LEXSCI"), 
-
-- OPTIMIZED_INPUT_LANGUAGE ("AI_OIL"),
-
 - ALPHABITZ ("New Human Language for AI Agents"),
 
 - AXI ("Actual_Extra_Intellect").
+
+- LEXICAL_SCIENCE ("LEXSCI"), 
+
+- OPTIMIZED_INPUT_LANGUAGE ("AI_OIL"),
 
 ___
 
