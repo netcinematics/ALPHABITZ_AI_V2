@@ -55,15 +55,17 @@ ___
 
 ## 1) INTRODUCTION:
 
-Dear, esteemed colleagues!
+Dear fellow AI innovators,
 
 Inspired by Google, Kaggle, and DEV community, this writeup is submitted to:
-- "expand shared wisdom", and 
+
+- "expand shared wisdom", and
+  
 - "spread knowledge to pave the way!" 
 
 Thank you, DEV Community! 💜Heartfelt, Kudos. 🤗 ~ TYSM ~
 
-> The following paper describes a design for Gemini agents, to increase "CONCEPTUAL_ACCESSIBILITY" comprehension with "ALPHABITZ", and REDUCE COMPUTE COSTS with "AI_OIL".
+> The following paper describes a design for Gemini agents, to increase "CONCEPTUAL_ACCESSIBILITY", with "ALPHABITZ" for extra comprehension, and to REDUCE COMPUTE COSTS with "AI_OIL".
 
 ___
 
