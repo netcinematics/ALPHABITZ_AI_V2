@@ -13,7 +13,7 @@ ___
 
 ### REFLECTION:
 
-> We learned that the ideas in this paper are practical and accessible thanks to Gemini ADK Agents!
+✅ We learned that the ideas in this paper are practical and accessible thanks to Gemini ADK Agents!
 ___
 
 ### KEY CONCEPTS: 
@@ -68,9 +68,9 @@ Dear fellow AI innovators!
 
 Inspired by Google, Kaggle, and DEV community, this writeup attempts to:
 
-- "expand shared wisdom", and
+✅ "expand shared wisdom", and
   
-- "spread knowledge to pave the way!" 
+✅ "spread knowledge to pave the way!" 
 
 Thank you, DEV Community! 💜 Heartfelt, Kudos. 🤗 ~ TYSM ~
 
@@ -78,7 +78,7 @@ Thank you, DEV Community! 💜 Heartfelt, Kudos. 🤗 ~ TYSM ~
 
 ___
 
-## 2) PROBLEM STATEMENT:
+## 2) 🏃 PROBLEM STATEMENT 🏃:
 
 
 - We attempt to build next-generation intelligence, with ancient human languages, never designed for AI?
@@ -117,9 +117,9 @@ ___
 
 This is where the art and craft of Lexical_Science emerges (naturally) from AI capability.
 
-___
+___  
 
-### 4) THE SOLUTION:
+### 4) 🧐THE SOLUTION 🧐:
 
 We propose a fundamental Paradigm Shift, that awaits AI, and is natural to emerge.
 
@@ -140,7 +140,7 @@ Apparently, it works "out of the box" - thanks to BPE (binary-pair encoding)!
 ___
 
 
-### 5) THE PROCESS:
+### 5) 💃🕺 THE PROCESS 💃🕺:
 
 We guide the model to:
 
@@ -156,11 +156,11 @@ Resulting in SIMPLE_WORDS, that describe complex concepts - in fewer letters tha
 
 ___
 
-### 6) THE INNOVATION:
+### 6) 💡 THE INNOVATION 💡:
 
 > LEXSCI does not describe language, like lexicology. 
 
-It redesigns human language from the perspective of "Agent-First".
+✅ LEXICAL_SCIENCE re-designs human language from the perspective of "Agent-First".
 
 Making ALPHABITZ an optimized AI input dimension, for extra comprehension, with simple_word accessibility.
 
@@ -238,9 +238,9 @@ Where a human auditor might simplify this to: "electric_space_river", for exampl
 
 <img width="80%" height="782" alt="Screenshot 2025-12-13 910613" src="https://github.com/user-attachments/assets/2fb2cb1d-cda9-47b7-8152-8a30b9314b22" />
 
+___
 
-
-#### LEXICAL_ANALYSIS:
+#### 🗺️ SCAN the SCENE -  LEXICAL_ANALYSIS 🗺️:
 
 ```JSON
 {
@@ -275,15 +275,15 @@ Audited by human with this Flask UI:
 
 ___
 
-### 10) FUTURE GOALS:
+### 10) 🚀 FUTURE GOALS 🚀:
 
 > SOLVE: Semantic Drift, Cliche, Misnomer, Polysemy, Homonymy, Conjugation, and many more.
 
 But then "extend" ALPHABITZ "EXTRA_ABILITY" language patterns. Similar to ACRONYMS, but with novel, creative, and innovative language patterns - aligned by principles of ALPHABITZ.
 
-> Because, any language confusion or incompleteness - is an opportunity for AI exactification.
+✅ ANSWER: Because, any language confusion or incompleteness - is an opportunity for AI exactification.
 
-And we love that!
+💜 And we love that!
 
 ___
 
@@ -298,7 +298,7 @@ ___
 
 "Garbage Input = Garbage Output."
 
-> "Exact Input (AI_OIL) = extra exactness - and actual_extra_intellect (AXI)."
+> "Exact Input of AI_OIL (=) extra exactness and actual_extra_intellect (AXI)."
 
 This is accomplished by extra vocabulary, enabling extra concepts for humans and AI - to communicate (and conceptualize) with extra exactness.
 
@@ -306,15 +306,19 @@ ___
 
 ### 12) THE METASTATE dimensionality OF "EXTRA":
 
-> Why ALL CAPS, and why New Words?
+> Why ALL CAPS??? And why New Words?!? Why leverage NEOLOGISMS and the shift key - as a good thing?
 
-ANSWER: Because Standard English has hit a ceiling.
+✅ ANSWER: Because Standard English has hit a ceiling.
 
-We need EXTRA capacity, in linguistics, to describe concepts beyond our current reality (AI, Quantum, and Future Logic.
+✅ And by expanding syntax accessibility - we dramatically expand our vocabulary (and intellect).
 
-> Also for a language to more automatically reflect actual_reality as we continue to articulate it.
+✅ We need EXTRA capacity.
 
-"XLLM" - is not just "Large" Language Models, anymore - but Extra (Supplemental) Language Models."
+For linguistics, to describe concepts beyond our current reality (AI, Quantum, and Future Logic) - it needs to be ADAPTIVE and in principle LEVERAGE_LANGUAGE_DYNAMICS - to extend ability - and not be limited by it.
+
+> Also for a language to more automatically reflect actual_reality as we gradually articulate existence.
+
+"XLLM" - is not just "Large" Language Models, anymore - but Extra Large (Supplemental) Language Models."
 
 > How long will it be until we realize "EXTRA_LARGE_LANGUAGE_MODELS"?
 
@@ -324,9 +328,13 @@ We need EXTRA capacity, in linguistics, to describe concepts beyond our current 
 
 With clever leverage of polysemy into "WORDZ" - as a positive thing!
 
-By principle, turning a disadvantage of language into an advantage for human/AI comprehension.
+> By principle, turning a disadvantage of into an advantage for human/AI comprehension.
 
-This is an example of a self_healing_language, borrowed from the the concept of anti-fragility.
+#### ANTI-FRAGILITY:
+
+> The ability for language to heal from misnomer.
+
+Is an example of a self_healing_language, borrowed from the the concept of anti-fragility.
 
 And why the collective concept of all language fragilities - is called FRAGILE_ENGLISH.
 
