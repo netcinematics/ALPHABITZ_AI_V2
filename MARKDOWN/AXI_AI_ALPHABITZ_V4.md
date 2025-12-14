@@ -13,7 +13,7 @@ ___
 
 ### REFLECTION:
 
-> We learned that the ideas in this paper are practical, and accessible thanks to Gemini ADK Agents!
+> We learned that the ideas in this paper are practical and accessible thanks to Gemini ADK Agents!
 ___
 
 ### KEY CONCEPTS: 
@@ -26,7 +26,7 @@ ___
 
 - "AI_OIL" ( "OPTIMIZED_INPUT_LANGUAGE" ).
 
-- "GENERATIVE_INTELLIGENCE" (use Gemini Agents to exactify vague concepts into extra SIMPLE_WORDS).
+- "GENERATIVE_INTELLIGENCE" (use Gemini Agents to exactify abstract concepts into extra SIMPLE_WORDS).
 
 - "XLLM" ("Extra_Large_Language_Model" - supplemental, optimized vocabulary, for AI and Human benefits).
 
@@ -64,15 +64,15 @@ ___
 
 ## 1) INTRODUCTION:
 
-Dear fellow AI innovators,
+Dear fellow AI innovators!
 
-Inspired by Google, Kaggle, and DEV community, this writeup is submitted to:
+Inspired by Google, Kaggle, and DEV community, this writeup attempts to:
 
 - "expand shared wisdom", and
   
 - "spread knowledge to pave the way!" 
 
-Thank you, DEV Community! 💜Heartfelt, Kudos. 🤗 ~ TYSM ~
+Thank you, DEV Community! 💜 Heartfelt, Kudos. 🤗 ~ TYSM ~
 
 > The following paper describes a design for Gemini agents, to increase "CONCEPTUAL_ACCESSIBILITY", with "ALPHABITZ" for extra comprehension, and to REDUCE COMPUTE COSTS with "AI_OIL".
 
@@ -81,31 +81,33 @@ ___
 ## 2) PROBLEM STATEMENT:
 
 
-We attempt to build next-generation Intelligence, with ancient human languages.
+- We attempt to build next-generation intelligence, with ancient human languages, never designed for AI?
 
-Linguists know of the many fragilities inherent, collectively known as "FRAGILE_ENGLISH".
+Lexicology is aware of many linguistic fragilities - collectively known as "FRAGILE_ENGLISH".
 
-- Is FRAGILE_ENGLISH not a fundamental DESIGN FLAW for AI?
+> Is FRAGILE_ENGLISH not a fundamental DESIGN FLAW for AI?
 
 We train AI with human language full of: Semantic Drift, Misnomer, Bias, Ambiguity, Cliche, Polysemy, and more.
 
 - Why not innovate a new human language - optimized for AI compute?
 
-- When AI "Hallucinates" is it not because the input itself is semantically ambiguous?
+- When AI "hallucinates" is it (sometimes) because the input is semantically ambiguous?
 
-We waste resources in compute, to "guess" the context. Where fragility of human language infers, and fails to provide.
+We waste resources in compute, to "guess" the context. Where fragility of human language infers, and fails to articulate.
 
-- Why not encode the context directly into the input language, as an Agent-First paradigm?
+- Why not encode the articulated context directly into the input language, as an Agent-First paradigm?
+
+We can pack "extra" data into metastate using single letters and simple_words - called "BITZ".
 
 We do not need to forever_train AI to avoid "Fragile_English".
 
-> Instead we adopt a design principle to "OPTIMIZE the INPUT LANGUAGE", as best-practice.
+> Instead we adopt a design principle to "OPTIMIZE INPUT LANGUAGE", as best-practice.
 
-- What if we were able to redesign human language for the age of ai - what would it be?
+- What if you were enabled to re-design a new human language, for the age of ai - what would it be?
 
 - Might a surprise result of expanded vocabulary - be actual_extra_intellect (AXI)?
 
-> The innovation of AI_OIL (Optimized_Input_Language), is but one of many aspects of LEXICAL_SCIENCE (lexsci) - described in this brief.
+> The innovation of AI_OIL (Optimized_Input_Language), is but one of many aspects of LEXICAL_SCIENCE (lexsci) - described here.
 
 ___
 
@@ -113,15 +115,15 @@ ___
 
 > We cannot solve the problem of intelligence, without first solving the problem of articulation.
 
-This is where the art and craft of Lexical_Science emerges from AI capability.
+This is where the art and craft of Lexical_Science emerges (naturally) from AI capability.
 
 ___
 
 ### 4) THE SOLUTION:
 
-We propose a fundamental Paradigm Shift, awaits AI - and is natural to eventuate.
+We propose a fundamental Paradigm Shift, that awaits AI, and is natural to emerge.
 
-From "Prompt Engineering" (guesswork) to "Lexical_Science" (extra_exactness).
+"From 'Prompt Engineering' (guesswork) to 'Lexical_Science' (extra_exactness)", says Gemini.
 
 Where ALPHABITZ is a supplemental "overlay language" for AI and Human benefit.
 
@@ -129,7 +131,7 @@ Where ALPHABITZ is a supplemental "overlay language" for AI and Human benefit.
 
 "We do not 'prompt' the AI. We program the AI to enter a state of Ontological Clarity", says Gemini.
 
-Using the lexsci.py engine (powered by Gemini), we can show how Gemini Agents instantly understand enhanced language syntax - with a single vocabulary markdown file. But also, that a cluster of markdown files have an enhanced affect/effect.
+Using the lexsci.py engine (powered by Gemini), we can show how Gemini Agents instantly understand enhanced language syntax - with a single vocabulary markdown file. But also, that a cluster of markdown files show an enhanced affect/effect on comprehension.
 
 Apparently, it works "out of the box" - thanks to BPE (binary-pair encoding)!
 
@@ -237,7 +239,7 @@ Where a human auditor might simplify this to: "space_mass", for example.
 <img width="80%" max-height="782" alt="Screenshot 2025-12-12 010613" src="https://github.com/user-attachments/assets/1694ad62-bf5a-4c7b-8134-e368c886c127" />
 
 
-#### Here was the LEXICAL_ANALYSIS:
+#### LEXICAL_ANALYSIS:
 
 ```JSON
 {
@@ -271,7 +273,7 @@ Audited by human with this Flask UI:
 
 ___
 
-### 9) FUTURE GOALS:
+### 10) FUTURE GOALS:
 
 > SOLVE: Semantic Drift, Cliche, Misnomer, Polysemy, Homonymy, Conjugation, and many more.
 
@@ -281,7 +283,7 @@ But then to "extend" the language into new language patterns. Similar to ACRONYM
 
 ___
 
-### 10) AUDITOR WORKFLOW:
+### 11) AUDITOR WORKFLOW:
 
 
 - Input: A "Messy" Human Concept (e.g., "Dark Matter", "Consciousness in AI").
@@ -298,7 +300,7 @@ This is accomplished by extra vocabulary, enabling extra concepts for human and 
 
 ___
 
-### 11) THE METASTATE dimensionality OF "EXTRA":
+### 12) THE METASTATE dimensionality OF "EXTRA":
 
 > Why ALL CAPS, and why New Words? Because Standard English has hit a ceiling.
 
@@ -306,15 +308,13 @@ To describe concepts beyond our current reality (Concepts of AI, Quantum, and Fu
 
 > "XLLM": Not just "Large" Language Models, but Extra (Supplemental) Language Models."
 
-It is Trained with OPTIMIZED_INPUT_LANGUAGES - but also works "out of the box" with BPE.
-
 > "Conceptual Accessibility" - is the ability to make complex concepts accessible to anyone with SIMPLE_WORDS. 
 
-"SIMPLE_WORDS" add a unique extra dimension in any embedded space. With the positive leverage of polysemy for "WORDZ".
+"SIMPLE_WORDS" add a unique extra dimension in any embedded space. With the positive leverage of polysemy into "WORDZ".
 
 By principle, they are self_descriptive, self_healing, easy_to_say and decipher by naming each exactly what they are.
 
-That concept accomplishted automatically - by a LEXICAL_SCIENCE process called "NAMERATE_METASTATE".
+That concept accomplished automatically - by a LEXICAL_SCIENCE process called "NAMERATE_METASTATE".
 
 > Where a Gemini Agent "NAMERATES" any vague or abstract concept, by iterating its metastate dimensionality - until it generates better WORDZ.
 
@@ -331,7 +331,7 @@ ___
 
 ___
 
-### 11) LANGUAGE_DYNAMISM vs LANGUAGE_STASIS:
+### 13) LANGUAGE_DYNAMISM vs LANGUAGE_STASIS:
 
 
 If we choose LANGUAGE_STASIS, we choose to remain stuck in logical loops of "Perpetual_Confusion"!
@@ -352,7 +352,7 @@ Enhancements designed for the first time to optimize AI, and also human comprehe
 
 ___
 
-### 12) NEXT STEPS:
+### 14) NEXT STEPS:
 
 Consider contributing to the github repo.
 
@@ -365,7 +365,7 @@ Help the exactification transformation,
 
 ___
 
-## 📊 ) REFERENCES 📢¶
+## 📊 15) REFERENCES 📢¶
 [AXI Research] "Ilya Sutskever", "We're moving from the age of scaling to the age of research" - YouTube, Nov 25, 2025 Dwarkesh Podcast. Available: https://www.youtube.com/watch?v=aR20FWCCjAs (Reference for Research).
 
 [GENERATIVE_INTELLIGENCE] SurfComplexity, "Generative_Intelligence" - Medium, Oct, 31, 2025. Available: https://medium.com/@adapttheweb/generative-intelligence-4c6e8a6c50e8
