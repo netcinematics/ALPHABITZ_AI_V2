@@ -270,7 +270,8 @@ The output is a Deterministic JSON object containing the Truth Trace.
 Audited by human with this Flask UI:
 
 
-<img width="80%" height="650" alt="Screenshot 2025-12-12 004136" src="https://github.com/user-attachments/assets/04d4d12e-b5a6-4f2a-9cab-2fcef2a863ad" />
+<img width="80%" height="912" alt="Screenshot 2025-12-12 201918" src="https://github.com/user-attachments/assets/1791ff0f-2d5c-40e8-b748-abcc1cce8d9b" />
+
 
 ___
 
