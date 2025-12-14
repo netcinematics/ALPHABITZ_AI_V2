@@ -51,8 +51,7 @@ ___
 
 #### 🗺️ HISTORY of ALPHABITZ 🗺️:
 
-Youtube Video:
-- [Story of ALPHABITZ](https://www.youtube.com/watch?v=B6dQQZk-Uqk)
+- [YouTube video - Story of ALPHABITZ](https://www.youtube.com/watch?v=B6dQQZk-Uqk)
 
 - [Whitepaper - "GENERATIVE_INTELLIGENCE"](https://medium.com/@adapttheweb/generative-intelligence-4c6e8a6c50e8)
 
