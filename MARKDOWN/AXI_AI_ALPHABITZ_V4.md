@@ -7,7 +7,7 @@
 
 ___
 
-<img width="80%" max-height="1024" alt="axi_9" src="https://github.com/user-attachments/assets/9a780a62-29cc-4ed0-aa7d-5853bc817340" />
+<img width="80%" height="1024" alt="axi_9" src="https://github.com/user-attachments/assets/9a780a62-29cc-4ed0-aa7d-5853bc817340" />
 
 ___
 
@@ -167,7 +167,7 @@ Making ALPHABITZ an optimized AI input dimension, for extra comprehension, with 
 ___
 
 
-<img width="80%" max-height="639" alt="Screenshot 2025-11-25 225427" src="https://github.com/user-attachments/assets/0b7c5e30-0ab6-4082-8b62-4707b46348fb" />
+<img width="80%" height="639" alt="Screenshot 2025-11-25 225427" src="https://github.com/user-attachments/assets/0b7c5e30-0ab6-4082-8b62-4707b46348fb" />
 
 ___
 
@@ -233,10 +233,11 @@ print(pristineTXT)
 
 > Gemini proposes renaming "Dark Matter" to "BIT_MASS_ENERGY_CONTENT"!
 
-Where a human auditor might simplify this to: "space_mass", for example.
+Where a human auditor might simplify this to: "electric_space_river", for example.
 
 
-<img width="80%" max-height="782" alt="Screenshot 2025-12-12 010613" src="https://github.com/user-attachments/assets/1694ad62-bf5a-4c7b-8134-e368c886c127" />
+<img width="80%" height="782" alt="Screenshot 2025-12-13 910613" src="https://github.com/user-attachments/assets/2fb2cb1d-cda9-47b7-8152-8a30b9314b22" />
+
 
 
 #### LEXICAL_ANALYSIS:
@@ -269,7 +270,7 @@ The output is a Deterministic JSON object containing the Truth Trace.
 Audited by human with this Flask UI:
 
 
-<img width="80%" max-height="650" alt="Screenshot 2025-12-12 004136" src="https://github.com/user-attachments/assets/04d4d12e-b5a6-4f2a-9cab-2fcef2a863ad" />
+<img width="80%" height="650" alt="Screenshot 2025-12-12 004136" src="https://github.com/user-attachments/assets/04d4d12e-b5a6-4f2a-9cab-2fcef2a863ad" />
 
 ___
 
@@ -327,7 +328,7 @@ Because it appears to form an extra dimension in embedded space.
 ___
 
 
-<img width="80%" max-height="698" alt="Screenshot 2025-11-25 230415" src="https://github.com/user-attachments/assets/ec69afe8-8f78-4182-9a1d-ed4662fd806d" />
+<img width="80%" height="698" alt="Screenshot 2025-11-25 230415" src="https://github.com/user-attachments/assets/ec69afe8-8f78-4182-9a1d-ed4662fd806d" />
 
 ___
 
