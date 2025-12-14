@@ -190,7 +190,7 @@ This is not a theoretical paper. It is the beginning of a working Python Engine.
 
 The 'LexSciEngine' class utilizes Gemini's native JSON capabilities to act as a Semantic_Pryzm.
 
-> Not unlike a TELESCOPE or a MICROSCOPE - we are work on a TELLECTOSCOPE - to SEE CONCEPTS.
+> Not unlike a TELESCOPE or a MICROSCOPE - we built a TELLECTOSCOPE - to SEE CONCEPTS.
 
 <img width="80%" height="863" alt="Screenshot 2025-02-11 114153" src="https://github.com/user-attachments/assets/08943324-4392-44b4-8477-0131c1ed504e" />
 
@@ -202,6 +202,9 @@ ___
 
 <img width="80%" height="813" alt="Screenshot 2025-02-11 114447" src="https://github.com/user-attachments/assets/567afd7d-1cfa-490f-8a90-c9af16ac4749" />
 
+> Zooming in - every sphere represents an exactified concept editor.
+
+Eventually showing knowledge graph relationships (still under construction).
 ___
 
 ### 9) THE CODE:
