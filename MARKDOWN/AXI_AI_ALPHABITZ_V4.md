@@ -48,7 +48,7 @@ Github Repository:
 
 ___
 
-<img width="588" height="491" alt="ALPHABITZ_001" src="https://github.com/user-attachments/assets/23986acd-ba93-4605-b1d6-63eacf900509" />
+<img width="80%" height="491" alt="ALPHABITZ_001" src="https://github.com/user-attachments/assets/23986acd-ba93-4605-b1d6-63eacf900509" />
 
 ___
 
@@ -353,7 +353,7 @@ ___
 
 > Exactly not "super", or "general" - but "EXTRA" dimensionality.
 
-<img width="441" height="465" alt="Screenshot 2025-11-24 181852" src="https://github.com/user-attachments/assets/3d4550e5-40be-4a81-a3e1-5c5795f7137e" />
+<img width="80%" height="465" alt="Screenshot 2025-11-24 181852" src="https://github.com/user-attachments/assets/3d4550e5-40be-4a81-a3e1-5c5795f7137e" />
 
 
 ___
