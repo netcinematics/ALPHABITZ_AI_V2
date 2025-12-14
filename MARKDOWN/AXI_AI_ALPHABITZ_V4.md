@@ -13,13 +13,17 @@ ___
 
 ### KEY CONCEPTS: 
 
-- ALPHABITZ ("New Human Language for AI Agents"),
+- "ALPHABITZ" ( A New Human Language for AI Agents ),
 
-- AXI ("Actual_Extra_Intellect").
+- "AXI" ( "Actual_Extra_Intellect" ),
 
-- LEXICAL_SCIENCE ("LEXSCI"), 
+- "LEXICAL_SCIENCE" ( "LEXSCI" ), 
 
-- AI_OIL (OPTIMIZED_INPUT_LANGUAGE),
+- "AI_OIL" ( "OPTIMIZED_INPUT_LANGUAGE" ).
+
+- "GENERATIVE_INTELLIGENCE" (use Gemini Agents to exactify vague concepts into extra SIMPLE_WORDS).
+
+- "XLLM" ("Extra_Large_Language_Model" - supplemental, optimized vocabulary, for AI and Human benefits).
 
 ___
 
