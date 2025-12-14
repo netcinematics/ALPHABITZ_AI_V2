@@ -8,7 +8,11 @@
 ___
 
 <img width="80%" max-height="1024" alt="axi_9" src="https://github.com/user-attachments/assets/9a780a62-29cc-4ed0-aa7d-5853bc817340" />
+___
 
+### REFLECTION:
+
+> We learned that the ideas in this paper are practical, and accessible thanks to Gemini ADK Agents!
 ___
 
 ### KEY CONCEPTS: 
@@ -45,11 +49,6 @@ ___
 
 <img width="588" height="491" alt="ALPHABITZ_001" src="https://github.com/user-attachments/assets/23986acd-ba93-4605-b1d6-63eacf900509" />
 
-___
-
-### REFLECTION:
-
-> We learned that the ideas in this paper are practical, and accessible thanks to Gemini ADK Agents!
 ___
 
 #### HISTORY of ALPHABITZ:
