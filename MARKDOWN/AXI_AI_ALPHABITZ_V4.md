@@ -229,7 +229,7 @@ Audited by human with this Flask UI:
 
 ___
 
-### FUTURE GOALS:
+### 9) FUTURE GOALS:
 
 > SOLVE: Semantic Drift, Cliche, Misnomer, Polysemy, Homonymy, Conjugation, and many more.
 
@@ -239,7 +239,7 @@ But then to "extend" the language into new language patterns. Similar to ACRONYM
 
 ___
 
-### 9) THE WORKFLOW:
+### 10) AUDITOR WORKFLOW:
 
 
 - Input: A "Messy" Human Concept (e.g., "Dark Matter", "Consciousness in AI").
@@ -256,7 +256,7 @@ This is accomplished by extra vocabulary, enabling extra concepts for human and 
 
 ___
 
-### 10) THE METASTATE OF "EXTRA":
+### 11) THE METASTATE dimensionality OF "EXTRA":
 
 > Why ALL CAPS, and why New Words? Because Standard English has hit a ceiling.
 
@@ -264,11 +264,28 @@ To describe concepts beyond our current reality (Concepts of AI, Quantum, and Fu
 
 > "XLLM": Not just "Large" Language Models, but Extra (Supplemental) Language Models."
 
-Trained with OPTIMIZED_INPUT_LANGUAGES.
+It is Trained with OPTIMIZED_INPUT_LANGUAGES - but also works "out of the box" with BPE.
 
-> "Conceptual Accessibility": Making complex concepts accessible with SIMPLE_WORDS. 
+> "Conceptual Accessibility" - is the ability to make complex concepts accessible to anyone with SIMPLE_WORDS. 
 
-Which are self-descriptive, easy to say and decipher by naming it exactly.
+"SIMPLE_WORDS" add a unique extra dimension in any embedded space. With the positive leverage of polysemy for "WORDZ".
+
+By principle, they are self_descriptive, self_healing, easy_to_say and decipher by naming each exactly what they are.
+
+That concept accomplishted automatically - by a LEXICAL_SCIENCE process called "NAMERATE_METASTATE".
+
+> Where a Gemini Agent "NAMERATES" any vague or abstract concept, by iterating its metastate dimensionality - until it generates better WORDZ.
+
+The human in the loop auditor - then introduces the better_wordz into Gemini via a singular MARKDOWN VOCABULARY seed.
+
+> Where the collective addition of articulation, into AI - is simply described as "EXTRA".
+
+Because it appears to form an extra dimension in embedded space.
+
+___
+
+
+<img width="80%" max-height="698" alt="Screenshot 2025-11-25 230415" src="https://github.com/user-attachments/assets/ec69afe8-8f78-4182-9a1d-ed4662fd806d" />
 
 ___
 
