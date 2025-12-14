@@ -78,52 +78,57 @@ ___
 
 We attempt to build next-generation Intelligence, with ancient human languages.
 
-This is a fundamental DESIGN FLAW.
+Linguists know of the many fragilities inherent, collectively known as "FRAGILE_ENGLISH".
 
-> Why not innovate a new human language - optimized for AI compute?
+- Is FRAGILE_ENGLISH not a fundamental DESIGN FLAW for AI?
 
-We train AI with "Fragile_English" — a language full of Semantic Drift, Ambiguity, and Polysemy.
+We train AI with human language full of: Semantic Drift, Misnomer, Bias, Ambiguity, Cliche, Polysemy, and more.
 
-Then AI "Hallucinates" because the input itself is semantically ambiguous.
+- Why not innovate a new human language - optimized for AI compute?
 
-We waste resources in compute, to "guess" the context that the fragile language fails to provide.
+- When AI "Hallucinates" is it not because the input itself is semantically ambiguous?
 
-> Why not encode the context directly into the input language?
+We waste resources in compute, to "guess" the context. Where fragility of human language infers, and fails to provide.
+
+- Why not encode the context directly into the input language, as an Agent-First paradigm?
 
 We do not need to forever_train AI to avoid "Fragile_English".
 
-> We adopt a principle of "OPTIMIZE the INPUT LANGUAGE".
+> Instead we adopt a design principle to "OPTIMIZE the INPUT LANGUAGE", as best-practice.
 
-- What if we were able to redesign human language for the age of ai?
+- What if we were able to redesign human language for the age of ai - what would it be?
 
-- Might the (surprise) result of expanded vocabulary be actual_extra_intelligence?
+- Might a surprise result of expanded vocabulary - be actual_extra_intellect (AXI)?
 
-The approach of AI_OIL (Optimized_Input_Language), is one of many aspects of LEXICAL_SCIENCE - described in this brief.
+> The innovation of AI_OIL (Optimized_Input_Language), is but one of many aspects of LEXICAL_SCIENCE (lexsci) - described in this brief.
 
 ___
 
 ### 3) THESIS:
 
-> We cannot solve the problem of Intelligence, without first solving the problem of articulation.
+> We cannot solve the problem of intelligence, without first solving the problem of articulation.
 
-This is where we introduce LEXSCI (Lexical_Science).
+This is where the art and craft of Lexical_Science emerges from AI capability.
 
 ___
 
-### 4) THE SOLUTION - LEXSCI:
+### 4) THE SOLUTION:
 
-We propose a Paradigm Shift from "Prompt Engineering" (guesswork) to "Lexical_Science" (extra_exactness).
+We propose a fundamental Paradigm Shift, awaits AI - and is natural to eventuate.
 
-Where ALPHABITZ is a supplemental "overlay language" for AI and Humans.
+From "Prompt Engineering" (guesswork) to "Lexical_Science" (extra_exactness).
 
-> It introduces many new verbs like "exactification", and "nameration"
+Where ALPHABITZ is a supplemental "overlay language" for AI and Human benefit.
 
-We do not "prompt" the AI. We program the AI to enter a state of Ontological Clarity.
-Using the lexsci.py engine (powered by Gemini). Proven to work via BPE (binary-pair encoding).
+> Lexical_Science introduces many new verbs like "exactification", and "nameration".
 
-> We can show how Gemini Agents can instantly understand new language syntax - with a single vocabulary markdown.
+"We do not 'prompt' the AI. We program the AI to enter a state of Ontological Clarity", says Gemini.
 
-Also, we are working to measure the OPTIMIZATION in compute resources, for reasoning, encode, and decode.
+Using the lexsci.py engine (powered by Gemini), we can show how Gemini Agents instantly understand enhanced language syntax - with a single vocabulary markdown file. But also, that a cluster of markdown files have an enhanced affect/effect.
+
+Apparently, it works "out of the box" - thanks to BPE (binary-pair encoding)!
+
+> Also, we work toward empirical measurements, to show degree of OPTIMIZED COMPUTE - for reasoning, encode, and decode.
 
 ___
 
@@ -136,9 +141,11 @@ We guide the model to:
 
 2) CALCULATE the actual_reality (by iterating METASTATE).
 
-3) GENERATE "Pristine_Text" (more exact concept definition - in fewer letters than the original).
+3) GENERATE "Pristine_Text" (more exact concept definitions - in fewer letters than the original).
 
-Resulting in SIMPLE_WORDS, to describe complex concepts - thanks to LEXICAL_SCIENCE.
+4) Then Human in The Loop (HITL) acts as auditor to classify the Python UI inputs as AI_OIL.
+
+Resulting in SIMPLE_WORDS, that describe complex concepts - in fewer letters than expert jargon.
 
 ___
 
@@ -146,9 +153,9 @@ ___
 
 > LEXSCI does not describe language, like lexicology. 
 
-It redesigns language from the perspective of "Agent-First".
+It redesigns human language from the perspective of "Agent-First".
 
-ALPHABITZ - is an optimized AI input, for extra human/AI comprehension, with simple_word accessibility.
+Making ALPHABITZ an optimized AI input dimension, for extra comprehension, with simple_word accessibility.
 
 ___
 
