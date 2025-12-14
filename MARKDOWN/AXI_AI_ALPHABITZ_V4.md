@@ -111,11 +111,11 @@ We do not need to forever_train AI to avoid "Fragile_English".
 
 ___
 
-### 3) THESIS:
+### 3) 🤖 THESIS 🤖:
 
 > We cannot solve the problem of intelligence, without first solving the problem of articulation.
 
-This is where the art and craft of Lexical_Science emerges (naturally) from AI capability.
+This is where Lexical_Science emerges (naturally) from AI capability - as an art of wordcraft.
 
 ___  
 
@@ -199,7 +199,7 @@ The 'LexSciEngine' class utilizes Gemini's native JSON capabilities to act as a 
 
 > Not unlike a TELESCOPE or a MICROSCOPE - we build a TELLECTOSCOPE - to SEE CONCEPTS.
 
-As example of LEXICAL_SCIENCE, is this 3D embedded space concept editor for ALPHABITZ.
+✅ As example of LEXICAL_SCIENCE, is this 3D embedded space concept editor for ALPHABITZ.
 
 <img width="80%" height="863" alt="Screenshot 2025-12-13 114153" src="https://github.com/user-attachments/assets/8c67f64d-f619-4e26-a2b1-7e9faf10e603" />
 
@@ -215,10 +215,10 @@ ___
 
 Soon to show knowledge graph relationships (still under construction).
 
-> Embedded into Gemini via a cluster of markdown files - but one vocabulary.md file is sufficient.
+✅ Embedded into Gemini via a cluster of markdown files - but one vocabulary.md file is sufficient.
 ___
 
-### 9) THE CODE:
+### 9)  🔧 THE CODE 🔧 :
 
 > lexsci.py
 
@@ -304,7 +304,7 @@ This is accomplished by extra vocabulary, enabling extra concepts for humans and
 
 ___
 
-### 12) THE METASTATE dimensionality OF "EXTRA":
+### 12) 📊 THE METASTATE dimensionality OF "EXTRA" 📊:
 
 > Why ALL CAPS??? And why New Words?!? Why leverage NEOLOGISMS and the shift key - as a good thing?
 
@@ -328,7 +328,9 @@ For linguistics, to describe concepts beyond our current reality (AI, Quantum, a
 
 With clever leverage of polysemy into "WORDZ" - as a positive thing!
 
-> By principle, turning a disadvantage of into an advantage for human/AI comprehension.
+✅ By principle, turning disadvantages into advantages - for human/AI comprehension.
+
+___
 
 #### ANTI-FRAGILITY:
 
@@ -338,7 +340,7 @@ Is an example of a self_healing_language, borrowed from the the concept of anti-
 
 And why the collective concept of all language fragilities - is called FRAGILE_ENGLISH.
 
-> Because we can leverage each fragility, and invert them - to make the human language stronger.
+✅ Because we can leverage each fragility, and invert them - to make the human language stronger.
 
 In addition, WORDZ are self_descriptive, easy_to_say, easy_to_decipher by naming each exactly what they are.
 
@@ -350,7 +352,7 @@ The human in the loop auditor - then introduces the better_wordz into Gemini via
 
 > Where the entire addition of articulation, into AI - is simply described as "EXTRA".
 
-Because it appears to form an extra dimension in embedded space.
+✅ Because it appears to form an extra dimensionality in embedded space.
 
 ___
 
@@ -366,7 +368,7 @@ ___
 
 ___
 
-### 13) LANGUAGE_DYNAMISM vs LANGUAGE_STASIS:
+### 13) 🏃 LANGUAGE_DYNAMISM 🏃 vs ⚠️ LANGUAGE_STASIS ⚠️:
 
 
 If we choose LANGUAGE_STASIS, we choose to remain stuck in logical loops of "Perpetual_Confusion"!
@@ -383,13 +385,13 @@ ALPHABITZ is a principled pursuit, for a PRIME OBJECTIVE of:
 
 This is done by many clever, elegant, and creative syntax enhancements.
 
-Enhancements designed for the first time to optimize AI, but also for easy human comprehension of "Actual_Reality".
+✅ Enhancements designed for the first time, to optimize AI, but also for easy human comprehension of "Actual_Reality".
 
 > This world needs ALPHABITZ!
 
 ___
 
-### 14) NEXT STEPS:
+### 14) 💃🕺 NEXT STEPS 💃🕺:
 
 Consider contributing to the github repo.
 
@@ -402,7 +404,7 @@ Help the exactification transformation,
 
 ___
 
-## 📊 15) REFERENCES 📢¶
+## 15) 📢 REFERENCES 📢
 [AXI Research] "Ilya Sutskever", "We're moving from the age of scaling to the age of research" - YouTube, Nov 25, 2025 Dwarkesh Podcast. Available: https://www.youtube.com/watch?v=aR20FWCCjAs (Reference for Research).
 
 [GENERATIVE_INTELLIGENCE] SurfComplexity, "Generative_Intelligence" - Medium, Oct, 31, 2025. Available: https://medium.com/@adapttheweb/generative-intelligence-4c6e8a6c50e8
