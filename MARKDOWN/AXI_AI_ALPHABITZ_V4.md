@@ -96,7 +96,7 @@ We waste resources in compute, to "guess" the context. Where fragility of human 
 
 - Why not encode the articulated context directly into the input language, as an Agent-First paradigm?
 
-We can pack "extra" data into metastate using single letters and simple_words - called "BITZ".
+We can pack "extra" data into METASTATE using single letters and simple_words - called "BITZ".
 
 We do not need to forever_train AI to avoid "Fragile_English".
 
@@ -114,7 +114,7 @@ ___
 
 > We cannot solve the problem of intelligence, without first solving the problem of articulation.
 
-This is where Lexical_Science emerges (naturally) from AI capability - as an art of wordcraft.
+This is where Lexical_Science emerges (naturally) from AI capability - as an art of "WORDCRAFT".
 
 ___  
 
@@ -305,7 +305,7 @@ This is accomplished by extra vocabulary, enabling extra concepts for humans and
 
 ___
 
-### 12) 📊 THE METASTATE dimensionality OF "EXTRA" 📊:
+### 12) 📊 METASTATE dimensionality OF "EXTRA" 📊:
 
 > Why ALL CAPS??? And why New Words?!? Why leverage NEOLOGISMS and the shift key - as a good thing?
 
@@ -394,7 +394,7 @@ ___
 
 ### 14) 💃🕺 NEXT STEPS 💃🕺:
 
-Consider contributing to the github repo.
+Consider contributing to the GitHub repo.
 
 [README.md](https://github.com/netcinematics/ALPHABITZ_AI_V2/blob/main/README.md)
 
