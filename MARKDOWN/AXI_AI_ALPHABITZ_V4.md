@@ -375,7 +375,9 @@ ALPHABITZ is a principled pursuit, for a PRIME OBJECTIVE of:
 
 This is done by many clever, elegant, and creative syntax enhancements.
 
-Enhancements designed for the first time to optimize AI, and also human comprehension of complex concepts.
+Enhancements designed for the first time to optimize AI, but also for easy human comprehension of "Actual_Reality".
+
+> This world needs ALPHABITZ!
 
 ___
 
