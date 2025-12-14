@@ -300,31 +300,47 @@ ___
 
 > "Exact Input (AI_OIL) = extra exactness - and actual_extra_intellect (AXI)."
 
-This is accomplished by extra vocabulary, enabling extra concepts for human and AI - to communicate (and conceptualize) with extra exactness.
+This is accomplished by extra vocabulary, enabling extra concepts for humans and AI - to communicate (and conceptualize) with extra exactness.
 
 ___
 
 ### 12) THE METASTATE dimensionality OF "EXTRA":
 
-> Why ALL CAPS, and why New Words? Because Standard English has hit a ceiling.
+> Why ALL CAPS, and why New Words?
 
-To describe concepts beyond our current reality (Concepts of AI, Quantum, and Future Logic), we need EXTRA capacity.
+ANSWER: Because Standard English has hit a ceiling.
 
-> "XLLM": Not just "Large" Language Models, but Extra (Supplemental) Language Models."
+We need EXTRA capacity, in linguistics, to describe concepts beyond our current reality (AI, Quantum, and Future Logic.
 
-> "Conceptual Accessibility" - is the ability to make complex concepts accessible to anyone with SIMPLE_WORDS. 
+> Also for a language to more automatically reflect actual_reality as we continue to articulate it.
 
-"SIMPLE_WORDS" add a unique extra dimension in any embedded space. With the positive leverage of polysemy into "WORDZ".
+"XLLM" - is not just "Large" Language Models, anymore - but Extra (Supplemental) Language Models."
 
-By principle, they are self_descriptive, self_healing, easy_to_say and decipher by naming each exactly what they are.
+> How long will it be until we realize "EXTRA_LARGE_LANGUAGE_MODELS"?
 
-That concept accomplished automatically - by a LEXICAL_SCIENCE process called "NAMERATE_METASTATE".
+"Conceptual_Accessibility" - is the ability for complex concepts to be easily accessible with SIMPLE_WORDS. 
 
-> Where a Gemini Agent "NAMERATES" any vague or abstract concept, by iterating its metastate dimensionality - until it generates better WORDZ.
+"SIMPLE_WORDS" add a unique extra dimension in any embedded space. 
+
+With clever leverage of polysemy into "WORDZ" - as a positive thing!
+
+By principle, turning a disadvantage of language into an advantage for human/AI comprehension.
+
+This is an example of a self_healing_language, borrowed from the the concept of anti-fragility.
+
+And why the collective concept of all language fragilities - is called FRAGILE_ENGLISH.
+
+> Because we can leverage each fragility, and invert them - to make the human language stronger.
+
+In addition, WORDZ are self_descriptive, easy_to_say, easy_to_decipher by naming each exactly what they are.
+
+That concept is accomplished automatically, in LEXICAL_SCIENCE with a process called "NAMERATE_METASTATE".
+
+> Where a Gemini Agent "NAMERATES" any abstract concept, by iterating its metastate dimensionality - until it generates better WORDZ.
 
 The human in the loop auditor - then introduces the better_wordz into Gemini via a singular MARKDOWN VOCABULARY seed.
 
-> Where the collective addition of articulation, into AI - is simply described as "EXTRA".
+> Where the entire addition of articulation, into AI - is simply described as "EXTRA".
 
 Because it appears to form an extra dimension in embedded space.
 
@@ -332,6 +348,13 @@ ___
 
 
 <img width="80%" height="698" alt="Screenshot 2025-11-25 230415" src="https://github.com/user-attachments/assets/ec69afe8-8f78-4182-9a1d-ed4662fd806d" />
+
+___
+
+> Exactly not "super", or "general" - but "EXTRA" dimensionality.
+
+<img width="441" height="465" alt="Screenshot 2025-11-24 181852" src="https://github.com/user-attachments/assets/3d4550e5-40be-4a81-a3e1-5c5795f7137e" />
+
 
 ___
 
