@@ -204,9 +204,11 @@ ___
 
 <img width="80%" height="813" alt="Screenshot 2025-02-11 114447" src="https://github.com/user-attachments/assets/567afd7d-1cfa-490f-8a90-c9af16ac4749" />
 
-> Zooming in - every sphere represents an exactified concept editor.
+> Zooming in - each sphere represents an exactified concept.
 
-Eventually showing knowledge graph relationships (still under construction).
+Soon to show knowledge graph relationships (still under construction).
+
+> Embedded into Gemini via a cluster of markdown files - but one vocabulary.md file is sufficient.
 ___
 
 ### 9) THE CODE:
