@@ -3,7 +3,7 @@
 > Increase "CONCEPTUAL_ACCESSIBILITY" with "ALPHABITZ".
 
 
-*Submission for: [Google AI Agents Writing Challenge](https://dev.to/challenges/googlekagglechallenge): Learning Reflections.*
+*Submission for: [Google AI Agents Writing Challenge](https://dev.to/challenges/google-kaggle-ai-agents-2025-11-10): Learning Reflections.*
 
 ___
 
@@ -49,30 +49,38 @@ ___
 
 Dear, esteemed colleagues!
 
-Inspired by Google, Kaggle, and DEV community, this writeup is submitted to "expand shared wisdom", and "spread knowledge that paves the way!" ~ DEV Community introduction. 💜Heartfelt, Kudos to you! 🤗 TYSM.
+Inspired by Google, Kaggle, and DEV community, this writeup is submitted to:
+- "expand shared wisdom", and 
+- "spread knowledge to pave the way!" 
 
-> The following paper describes an AI design for Gemini agents, to increase "CONCEPTUAL_ACCESSIBILITY" with "ALPHABITZ" (enhanced syntax), and to OPTIMIZE language input with "AI_OIL".
+Thank you, DEV Community! 💜Heartfelt, Kudos. 🤗 ~ TYSM ~
+
+> The following paper describes a design for Gemini agents, to increase "CONCEPTUAL_ACCESSIBILITY" comprehension with "ALPHABITZ", and REDUCE COMPUTE COSTS with "AI_OIL".
 
 ___
 
 ## 2) PROBLEM STATEMENT:
 
 
-We attempt to build next-generation Intelligence, with ancient human language techniques.
+We attempt to build next-generation Intelligence, with ancient human languages.
 
-> This is a fundamental DESIGN FLAW.
+This is a fundamental DESIGN FLAW.
+
+> Why not innovate a new human language - optimized for AI compute?
 
 We train AI with "Fragile_English" — a language full of Semantic Drift, Ambiguity, and Polysemy.
 
-Then AI "Hallucinates" because the input itself is structurally unsound and ambiguous.
+Then AI "Hallucinates" because the input itself is structurally ambiguous.
 
-> We waste resources in compute, to "guess" the context that the fragile language fails to provide.
+We waste resources in compute, to "guess" the context that the fragile language fails to provide.
 
-We do not need to do this - there exists another way.
+> Why not encode the context directly into the input language?
+
+We do not need to forever_train AI to avoid "Fragile_English".
 
 > We can "OPTIMIZE the input language".
 
-An approach called AI_OIL (Optimized Input Language).
+An approach called AI_OIL (Optimized Input Language), is described (briefly) here.
 
 ___
 
@@ -88,14 +96,19 @@ ___
 
 We propose a Paradigm Shift from "Prompt Engineering" (guesswork) to "Lexical_Science" (extra_exactness).
 
-ALPHABITZ is a supplemental "Overlay Language" for AI and Humans.
+Where ALPHABITZ is a supplemental "overlay language" for AI and Humans.
 
-> It introduces many new verbs like "EXACTIFICATION", and "NAMERATION"
+> It introduces many new verbs like "exactification", and "nameration"
 
 We do not "prompt" the AI. We program the AI to enter a state of Ontological Clarity.
 Using the lexsci.py engine (powered by Gemini). Proven to work via BPE (binary-pair encoding).
 
+> We can show how Gemini Agents can instantly understand new language syntax - with a single vocabulary markdown.
+
+Also, we are working to measure the OPTIMIZATION in compute resources, for reasoning, encode, and decode.
+
 ___
+
 
 ### 5) THE PROCESS:
 
@@ -107,13 +120,17 @@ We guide the model to:
 
 3) GENERATE "Pristine_Text" (more exact concept definition - in fewer letters than the original).
 
-That is the innovation of SIMPLE_WORDS, as a result of LEXICAL_SCIENCE.
+Resulting in SIMPLE_WORDS, to describe complex concepts - thanks to LEXICAL_SCIENCE.
 
 ___
 
 ### 6) THE INNOVATION:
 
-> LEXSCI does not describe language, like lexicology. It redesigns language, as an optimized AI input for human comprehension and simple_word accessibility.
+> LEXSCI does not describe language, like lexicology. 
+
+It redesigns language from the perspective of "Agent-First".
+
+ALPHABITZ - is an optimized AI input, for extra human/AI comprehension, with simple_word accessibility.
 
 ___
 
@@ -233,19 +250,21 @@ ___
 ### 11) LANGUAGE_DYNAMISM vs LANGUAGE_STASIS:
 
 
-If we choose LANGUAGE_STASIS, we choose to remain stuck in a loop of "Perpetual_Confusion."
+If we choose LANGUAGE_STASIS, we choose to remain stuck in logical loops of "Perpetual_Confusion"!
 
 > We need to use new words to articulate new concepts.
 
-Reusing ancient language, for new concepts, dilutes existing language, while encoding AI to echo ancient bias.
+Reusing ancient language, for new concepts, dilutes existing language - while encoding AI to echo ancient bias.
 
-> LEXICAL_SCIENCE - leverages language dynamism. 
+> LEXICAL_SCIENCE - leverages language dynamism, and unlocks a new dimension of accessibility. 
 
-ALPHABITZ is the principled pursuit for the PRIME OBJECTIVE: 
+ALPHABITZ is a principled pursuit, for a PRIME OBJECTIVE of: 
 
 > "WORDZ" to BEST_REFLECT_ACTUAL_REALITY.
 
-This is done by many clever and creative syntax enhancements.
+This is done by many clever, elegant, and creative syntax enhancements.
+
+Enhancements designed for the first time to optimize AI, and also human comprehension of complex concepts.
 
 ___
 
@@ -253,7 +272,7 @@ ___
 
 Consider contributing to the github repo.
 
-https://github.com/netcinematics/ALPHABITZ_AI_V2/blob/main/README.md
+[README.md](https://github.com/netcinematics/ALPHABITZ_AI_V2/blob/main/README.md)
 
 Help the exactification transformation,
 
