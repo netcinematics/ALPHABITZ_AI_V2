@@ -11,12 +11,12 @@ ___
 
 ___
 
-### REFLECTION:
+### 💎 REFLECTION 💎:
 
 ✅ We learned that the ideas in this paper are practical and accessible thanks to Gemini ADK Agents!
 ___
 
-### KEY CONCEPTS: 
+### 🧐 KEY CONCEPTS 🧐: 
 
 - "ALPHABITZ" ( A New Human Language for AI Agents ),
 
@@ -119,7 +119,7 @@ This is where Lexical_Science emerges (naturally) from AI capability - as an art
 
 ___  
 
-### 4) 🧐THE SOLUTION 🧐:
+### 4) 🧐 THE SOLUTION 🧐:
 
 We propose a fundamental Paradigm Shift, that awaits AI, and is natural to emerge.
 
@@ -189,7 +189,7 @@ While this is not actionable, yet, it is a step in the right direction.
 
 ___
 
-### 8) THE SEMANTIC_PRYZM: 
+### 8) 💎 THE SEMANTIC_PRYZM 💎: 
 
 This is not a theoretical paper. It is the beginning of a working Python Engine.
 
