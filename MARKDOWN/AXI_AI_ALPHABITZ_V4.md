@@ -178,7 +178,7 @@ print(pristineTXT)
 Where a human auditor might simplify this to: "space_mass", for example.
 
 
-second img
+<img width="80%" max-height="782" alt="Screenshot 2025-12-12 010613" src="https://github.com/user-attachments/assets/1694ad62-bf5a-4c7b-8134-e368c886c127" />
 
 
 #### Here was the LEXICAL_ANALYSIS:
@@ -211,7 +211,7 @@ The output is a Deterministic JSON object containing the Truth Trace.
 Audited by human with this Flask UI:
 
 
-<img width="50%" max-height="650" alt="Screenshot 2025-12-12 004136" src="https://github.com/user-attachments/assets/04d4d12e-b5a6-4f2a-9cab-2fcef2a863ad" />
+<img width="80%" max-height="650" alt="Screenshot 2025-12-12 004136" src="https://github.com/user-attachments/assets/04d4d12e-b5a6-4f2a-9cab-2fcef2a863ad" />
 
 ___
 
