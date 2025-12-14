@@ -32,13 +32,10 @@ ___
 
 ___
 
-#### RESOURCES:
+#### 🔧 RESOURCES 🔧:
 
 AI Intensive Capstone for Google|Kaggle:
 - [ALPHABITZ_AI_CAPSTONE](https://www.kaggle.com/competitions/agents-intensive-capstone-project/writeups/alphabitz)
-
-Youtube Video:
-- [Story of ALPHABITZ](https://www.youtube.com/watch?v=B6dQQZk-Uqk)
 
 Kaggle Competition Notebook:
 - [ALPHABITZ_CAPSTONE](https://www.kaggle.com/code/nashashworth/alphabitz-capstone)
@@ -52,7 +49,10 @@ ___
 
 ___
 
-#### HISTORY of ALPHABITZ:
+#### 🗺️ HISTORY of ALPHABITZ 🗺️:
+
+Youtube Video:
+- [Story of ALPHABITZ](https://www.youtube.com/watch?v=B6dQQZk-Uqk)
 
 - [Whitepaper - "GENERATIVE_INTELLIGENCE"](https://medium.com/@adapttheweb/generative-intelligence-4c6e8a6c50e8)
 
