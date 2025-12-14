@@ -188,7 +188,7 @@ While this is not actionable, yet, it is a step in the right direction.
 
 ___
 
-### 8) 💎 THE SEMANTIC_PRYZM 💎: 
+### 8) 💎 INTERACTIVE SEMANTIC_PRYZM 💎: 
 
 This is not a theoretical paper. It is the beginning of a working Python Engine.
 
